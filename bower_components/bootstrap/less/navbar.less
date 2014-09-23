@@ -12,7 +12,8 @@
   position: relative;
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: @navbar-margin-bottom;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 
   // Prevent floats from breaking the navbar
   &:extend(.clearfix all);
@@ -166,7 +167,11 @@
   padding: @navbar-padding-vertical @navbar-padding-horizontal;
   font-size: @font-size-large;
   line-height: @line-height-computed;
-  height: @navbar-height;
+  height: @line-height-computed;
+  border: 12px red;
+  background-color: green;
+  margin-top:@navbar-brand-margintop;
+  text-transform: uppercase;
 
   &:hover,
   &:focus {
@@ -541,6 +546,8 @@
   .navbar-nav {
     > li > a {
       color: @navbar-inverse-link-color;
+      text-transform: uppercase;
+      
 
       &:hover,
       &:focus {
@@ -564,6 +571,32 @@
         background-color: @navbar-inverse-link-disabled-bg;
       }
     }
+    >  .buy {
+        background-color:#c80529;
+        border-bottom: 5px solid #c80529;
+        &,
+        &:hover,
+        &:focus {
+          color: @navbar-inverse-link-active-color;
+          background-color: #c80529;
+        }
+      }
+    > .rent {
+        border-bottom: 5px solid #1979b3;
+        &:hover,
+        &:focus {
+          color: @navbar-inverse-link-active-color;
+          background-color: #1979b3;
+        }
+      }
+    > .commercial {
+        border-bottom: 5px solid #339d43;
+        &:hover,
+        &:focus {
+          color: @navbar-inverse-link-active-color;
+          background-color: #339d43;
+        }
+      }
   }
 
   // Darken the responsive nav toggle
