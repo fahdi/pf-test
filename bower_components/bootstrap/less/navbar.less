@@ -232,8 +232,12 @@
 // the nav the full height of the horizontal nav (above 768px).
 
 .navbar-nav {
+  font-size:@font-size-nav;
   margin: (@navbar-padding-vertical / 2) -@navbar-padding-horizontal;
-
+  >li {
+    padding:0;
+    margin:0;
+  }
   > li > a {
     padding-top:    10px;
     padding-bottom: 10px;
@@ -544,11 +548,14 @@
   }
 
   .navbar-nav {
+    > li {
+        border-bottom: 5px solid #b1b4c7;
+        border-left: 1px solid #5e6075;
+
+      }
     > li > a {
       color: @navbar-inverse-link-color;
       text-transform: uppercase;
-      
-
       &:hover,
       &:focus {
         color: @navbar-inverse-link-hover-color;
@@ -581,7 +588,7 @@
           background-color: #c80529;
         }
       }
-    > .rent {
+    > .rental {
         border-bottom: 5px solid #1979b3;
         &:hover,
         &:focus {

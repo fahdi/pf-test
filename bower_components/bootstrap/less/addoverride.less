@@ -1,0 +1,232 @@
+// Panels Additional Override Code. 
+
+.panel ul.details {
+    padding-left:0;
+    > li {
+        list-style:none;
+        float:left;
+        padding:10px;
+    }
+    > li:last-child {
+        float:right;
+    }
+}
+.property_locations {
+    text-transform:uppercase;
+}
+
+// Adding extra five column grid to the bootsrap with custom padding and margins
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+// Wide images area
+.wide img {
+    width:100%;
+}
+
+
+// Rent area
+// rent class to be in red color as in 'briefing' annotated image
+.rent {
+    color: #c80529;
+    font-weight: 600;
+}
+// Heading
+h1.property_heading {
+    font-size:22px;
+    font-weight:500;
+    color:#4b4d59;
+}
+// Agent / Developer contact area
+.contact-agent {
+
+    img.photo {
+        width:auto;
+        height:100%;
+    }
+    img.developer-logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .buttons {
+        background-color: #c71f40;
+    }
+    .button {
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #c71f40;
+        border:none;
+        border-color: transparent;
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding: 25px 16px;
+        font-size: 15px;
+        line-height: 1.33;
+        border-radius: 0;
+        text-align: left;
+        outline: none;
+        // Inreasing the glypicon size by 30%
+        .glyphicon {
+            font-size:130%;
+        }
+    }
+ 
+    //Setting up the CSS3 transitions for the right sidebar
+    .ph-number.open {
+        height: 50px;
+    }
+    .ph-number {
+        background-color: rgba(255, 255, 255, 1);
+        height: 0;
+        text-align: center;
+        line-height: 250%;
+        font-size: 150%;
+        font-weight: bold;
+        overflow: hidden;
+        //transition: height 300ms ease-in;
+    }
+    span.glyphicon {
+        padding:10px 15px;
+    }
+    hr {
+        height:1px;
+        margin:0;
+        border:0;
+        border-top: 1pt solid #c77d8a;
+        width:90%;
+        margin:0 auto;
+    }
+}
+// Advertisment Section
+.ad {
+    width:100%;
+    margin-bottom:22px;
+
+    h2 {
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    .ad-container {
+        height:250px;
+        color:#fff;
+        background-color: #c60601;
+        font-size:30px;
+        line-height:250px;
+        display: block;
+        width: 100%;
+        text-align:center;
+        font-size:64px;
+    }
+}
+// Social sharing
+.social {
+    .buttonswhite {
+        background-color: #fff;
+    }
+    .buttonwhite {
+        text-transform: uppercase;
+        background-color: #fff;
+        border:none;
+        border-color: transparent;
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding: 18px 16px;
+        font-size: 15px;
+        line-height: 1.33;
+        border-radius: 0;
+        text-align: left;
+        outline: none;
+    }
+    hr {
+        height:1px;
+        margin:0;
+        border:0;
+        border-top: 1pt solid #e9e9e9;
+        width:90%;
+        margin:0 auto;
+    }
+    .glyphicon {
+        padding:10px 15px;
+        font-size:130%;
+    }
+    i {
+        padding:10px 15px;
+        font-size:1.5em;
+        font-size:130%;
+    }
+}
+// Footer Section
+footer {
+    h2.extra_properties {
+        text-transform:uppercase;
+        text-align:center;
+        font-size:19px;
+    }
+    .row {
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+    h2.property_info {
+        text-transform:capitalize;
+        font-size:15px;
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        padding:5px 5px 2px 5px;
+        margin:0;
+    }
+    // Fixing footer margins for good, mgiht need restyling for mobile devices
+    .nomargins {
+        margin-left: -20px;
+        margin-right: 0px;
+    }
+    // Restyling footer panels
+    .panel-body
+    {
+        padding:0;
+        img {
+            width:100%;
+        }
+        .rented {
+            text-align:center;
+            font-size:13px;
+            padding:10px 10px;
+            color:#c80529;
+        }
+    }
+}
