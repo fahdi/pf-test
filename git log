@@ -1,0 +1,50 @@
+propertyfinder $ git log
+commit 00c84d891f7c90b00f740515582ca6699f2c055a
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Fri Sep 26 01:40:43 2014 +0500
+
+    1. New bower components added namely:
+        - Font Awesome, which includes in bootstrap via less. There is only one icon i.e facebook icon being used from the font a
+        - OwlCarousel, both version 1.3.2 and version 2 as separate bower components.
+    2. The main html file has updated markup for the mockup functionality and design with a lot of code clean up and formatting. 
+    3. A mockup html file with respective images in the 'images' folder in the root.
+    4. Updated readme file with more explanations.
+    5. Bootstrap less files updated with more styles and fixes for layout.
+         - Bootstrap (bootstrap.less) has font awesome less files integrated for one-off gruntjs integration and code optimizatio
+         - navbar.less file has better styles for navbar styling. I still need to work on the brand ( logo and text) area.
+         - panels.less Box shadows have been added to panels.
+         - A new file addoverride.less has been added and included within bootstrap to add more styles and override some.
+         - variables.less has new code for better rendering helvitica nue which looks better across browsers and is quite close t
+    6. 'images' folder now contains new images for the mockup.html and index.html
+
+commit 16621ba150f64f3515fceb4abe162b649e41d758
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Tue Sep 23 19:41:38 2014 +0500
+
+    1. Added new styles for top navigation
+    2. Fixed glyph icons issue so they load properly
+    3. Added text from the image as is.
+    4. Did half of the markup including the top navigation, information area, and the description below.
+    5. Top navbar branding area styling, still needs to be finalised in less files.
+    6. Many other small fizes
+
+commit 69a05b52507efff83de374061dfbc2c0d354d139
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Tue Sep 23 15:09:09 2014 +0500
+
+    1. Git ignore has new rules for npm ignores
+    2. dist has newly created stuff.
+    3. Readme updated
+    4. The main index page created and did some coding.
+
+commit 4fa1b6aa9fff59fdcdb988a105766e4b532fc2c3
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Tue Sep 23 08:23:50 2014 +0500
+
+    Adding the new ignore file to get rid of all the nuisance.
+
+commit f9aca0933ad86f8713d6c9d4bfed673446799c37
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Tue Sep 23 08:04:14 2014 +0500
+
+    Adding the very first version. The libraries are based on bower
