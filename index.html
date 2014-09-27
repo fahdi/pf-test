@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="favicon.ico">
@@ -11,10 +11,14 @@
   <!-- Bootstrap core CSS -->
   <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Modernizr -->
+  <script src="bower_components/FlexSlider/demo/js/modernizr.js"></script>
+
 </head>
 <body>
   <div class="navbar  navbar-inverse" role="navigation">
@@ -43,8 +47,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        <div class="row">
-          <div class="panel details">
+        
+          <div class="panel  details">
             <div class="panel-body">
               <ul class="details">
                 <li><span class="glyphicon glyphicon-map-marker"></span> Apartment</li>
@@ -54,15 +58,41 @@
                 <li><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>250,000</strong></span> AED/year</li>
               </ul>
             </div>
-          </div>
+          
         </div>
-        <div class="panel row wide">
-          <img src="images/wide.jpg" alt="123"/>
+        <div class="panel  wide" id="main" role="main">
+              <section class="slider">
+        <div class="flexslider">
+          <ul class="slides">
+            <li data-thumb="images/a.jpg">
+              <img src="images/wide.jpg" />
+            </li>
+            <li data-thumb="images/b.jpg">
+               <img src="images/wide.jpg" />
+            </li>
+            <li data-thumb="images/c.jpg">
+               <img src="images/wide.jpg" />
+            </li>
+            <li data-thumb="images/d.jpg">
+               <img src="images/wide.jpg" />
+            </li>
+            <li data-thumb="images/e.jpg">
+               <img src="images/wide.jpg" />
+            </li>
+            <li data-thumb="images/f.jpg">
+               <img src="images/wide.jpg" />
+            </li>
+            <li data-thumb="images/g.jpg">
+               <img src="images/wide.jpg" />
+            </li>
+          </ul>
+        </div>
+      </section>
         </div>
         <section id="property-description">
           <h2 class="description-title">Property Description</h2><p class="pull-right right">REF : <span class="rent">F4-R-163</span></p>
           <div class="clear"></div>
-          <div class="panel row">
+          <div class="panel">
             <div class="panel-body">
               <span class="property_locations">Dubai - Al Barari - Al Barari Villas </span>
               <h1 class="property_heading">Elite &amp; Luxurious, 'The Reserve' Villa at 'Al Barari'</h1>
@@ -79,20 +109,20 @@
               <section id="property-summary">
                 <h2>Listing Summary</h2>
                 <hr/>
-                <div class="col-sm-3">Reference<br/><strong>TRA01</strong></div>
-                <div class="col-sm-3">Type<br/><strong>Villa</strong></div>
-                <div class="col-sm-3">City<br/><strong>Dubai</strong></div>
-                <div class="col-sm-3">Community<br/><strong>Al Barari</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Reference<br/><strong>TRA01</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Type<br/><strong>Villa</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">City<br/><strong>Dubai</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Community<br/><strong>Al Barari</strong></div>
                 <hr/>
-                <div class="col-sm-3">Subcommunity<br/><strong>Al Barari</strong></div>
-                <div class="col-sm-3">Property<br/><strong>N/A</strong></div>
-                <div class="col-sm-3">Sqft<br/><strong>50,000 sqft</strong></div>
-                <div class="col-sm-3">Bedrooms<br/><strong>7+</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Subcommunity<br/><strong>Al Barari</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Property<br/><strong>N/A</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Sqft<br/><strong>50,000 sqft</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Bedrooms<br/><strong>7+</strong></div>
                 <hr/>
-                <div class="col-sm-3">Bathrooms<br/><strong>7+</strong></div>
-                <div class="col-sm-3">Price<br/><strong>AED 70,000,000</strong></div>
-                <div class="col-sm-3">Price/sqft<br/><strong>AED 1,400 /sqft</strong></div>
-                <div class="col-sm-3">Last Update<br/><strong>05/08/2013</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Bathrooms<br/><strong>7+</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Price<br/><strong>AED 70,000,000</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Price/sqft<br/><strong>AED 1,400 /sqft</strong></div>
+                <div class="col-sm-3 col-md-3 col-lg-3">Last Update<br/><strong>05/08/2013</strong></div>
               </section>
             </div>
           </div>
@@ -103,10 +133,10 @@
           <div class="panel">
             <div class="panel-body row">
               <div itemscope itemtype="http://data-vocabulary.org/Person">
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-3 col-lg-3">
                   <img src="images/agent.gif" alt="Jennifer Doe" class="photo" itemprop="photo">
                 </div>
-                <div class="col-sm-offset-1 col-sm-8 ">
+                <div class="col-lg-offset-1 col-md-offset-1 col-sm-6 col-md-8 col-lg-7">
                   <span itemprop="name">Jennifer Doe</span><br/>
                   <span itemprop="address" itemscope
                   itemtype="http://data-vocabulary.org/Address">
@@ -120,10 +150,10 @@
             </div>
           </div>
           <div class="buttons">
-            <button class="button button-phone" data-propertyid="16" data-developerid="00" data-contactno="055 123 45 67"><span class="glyphicon glyphicon-th"></span> Contact by Phone</button>
+            <button class="button button-phone"><span class="glyphicon glyphicon-th"></span> Contact by Phone</button>
             <hr/>
             <div class="ph-number"><a href="tel:0551234567">055 123 45 67 </a></div>
-            <button class="button button-contact-by-mail" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-envelope"></span> Contact by Mail</button>
+            <button class="button button-contact-by-mail" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-envelope"></span> Contact by Email</button>
             <hr/>
             <button class="button button-contact-by-mail" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-edit"></span> Make an Offer</button>
           </div>
@@ -137,11 +167,11 @@
         <section class="social">
           <div class="buttonswhite">
 
-            <button class="buttonwhite button-phone" data-propertyid="16" data-developerid="00" data-contactno="055 123 45 67"><span class="glyphicon glyphicon-star-empty"></span> Favorite this property</button>
+            <button class="buttonwhite fav" data-propertyid="16" data-developerid="00" data-contactno="055 123 45 67"><span class="glyphicon glyphicon-star-empty"></span> Favorite this property</button>
             <hr/>
-            <button class="buttonwhite button-contact-by-mail" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-file"></span> Print Details in PDF</button>
+            <button class="buttonwhite print" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-file"></span> Print Details in PDF</button>
             <hr/>
-            <button class="buttonwhite button-email" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-user"></span> Email to friend</button>
+            <button class="buttonwhite email" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-user"></span> Email to friend</button>
             <hr/>
             <button class="buttonwhite button-fb" data-toggle="modal" data-target="#messageModal"><i class="fa fa-facebook bold"></i> Share on facebook</button>
           </div>
@@ -167,8 +197,8 @@
     </div>
     <footer>
       <h2 class="extra_properties"><span class="glyphicon glyphicon-briefcase"></span> People also checked these properties out</h2>
-      <div class="row">
-        <div class="col-md-5ths col-xs-6">
+      <div class="row sevenpixels">
+        <div class="col-md-2-4 col-xs-6">
           <div class="panel details">
             <div class="panel-body">
               <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
@@ -178,7 +208,7 @@
             </div>
           </div>
         </div><!--/span-->
-        <div class="col-md-5ths col-xs-6">
+        <div class="col-md-2-4 col-xs-6">
           <div class="panel details">
             <div class="panel-body">
               <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
@@ -188,7 +218,7 @@
             </div>
           </div>
         </div><!--/span-->
-        <div class="col-md-5ths col-xs-6">
+        <div class="col-md-2-4 col-xs-6">
           <div class="panel details">
             <div class="panel-body">
               <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
@@ -198,7 +228,7 @@
             </div>
           </div>
         </div><!--/span-->
-        <div class="col-md-5ths col-xs-6">
+        <div class="col-md-2-4 col-xs-6">
           <div class="panel details">
             <div class="panel-body">
               <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
@@ -208,7 +238,7 @@
             </div>
           </div>
         </div><!--/span-->
-        <div class="col-md-5ths col-xs-6">
+        <div class="col-md-2-4 col-xs-6">
           <div class="panel details">
             <div class="panel-body">
               <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
@@ -219,7 +249,8 @@
           </div>
         </div><!--/span-->
       </div><!--/row-->
-      <div class="row nomargins">
+      <div class="row">
+      <div class="col-sm-12">
         <div class="panel details">
           <div class="panel-body">
             <ul class="details">
@@ -231,6 +262,7 @@
             </ul>
           </div>
         </div>
+        </div>
       </div>
     </footer>
   </div><!--/.container-->
@@ -241,5 +273,30 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+
+  <script>window.jQuery || document.write('<script src="bower_components/FlexSlider/demo/js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="bower_components/FlexSlider/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+  <!-- Optional FlexSlider Additions -->
+  <script src="bower_components/FlexSlider/demo/js/jquery.easing.js"></script>
+  <script src="bower_components/FlexSlider/demo/js/jquery.mousewheel.js"></script>
+  
 </body>
 </html>
