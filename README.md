@@ -80,7 +80,75 @@ Should you encounter problems with installing dependencies or running Grunt comm
 Since bootstrap has a very detailed 'less' file structure, it was pretty easy for me to add and edit things and get them compiled via Grunt tasks. I used other bower compnents to be compiled into bootstrap to keep the number of webpage resources to minimum which helps with performance of the website. 
 
 
+##Important Notes regarding grid layout changes for responsive layout
 
+I undertanhd that the given mockup is based on 940px wide container design. This could be easily converted to a 940px layout with right sidebar being 300px wide, but:
+
+#The BIG 'BUT'
+
+Our requirements are simple:
+
+- The candidate needs to code the page showed in "mockup.jpg". Details are provided in "briefing.jpg".
+- Show HTML5, CSS3 and JS skills.
+- Responsive design.
+- The text doesn't matter, just use some Lorem ipsum.
+- Up to the candidate to decide if he wants to use CSS, JS or both for some features (buttons, pictures, responsiveness, etc...).
+- Original pictures to use are attached, the candidate is not allowed to modify them other than using CSS or JS.
+- We only consider people that will browse this page with a recent computer (2 years old at max).
+- The candidate can extract icons with the background from the jpeg file since we do not provide icons with transparency. Just code it as if the icons were transparent.
+
+There are two important points that I considered here: 
+
+- One being that you will be only considering people with only two year old computers at maximum. That lands us is a sweet ( and rather new) spot where we have wide screens and 940px as the maximum width for a layout becomes a design bug rather than a feature. 
+
+- Second being that the design is responsive and it has not only to conform to smaller screen sizes i.e tablets, phablets and phones but to bigger and wider displays that are common these days.
+
+- So there are new changes in bootstrap 3 to support wider screen sizes and 940px is default no more. 
+
+- As Grids are the cornerstone of Bootstrap, and they’ve received a major overhaul in 3. The fixed grid system with no responsiveness is still using the old 940px wide container though.
+
+- The grid system is now a single fluid and mobile-first grid.
+
+- This means the grid now only uses percentage based widths instead of pixel-based widths. And now that it’s mobile-first, the grid starts stacked and scales “up” for larger screens.
+
+- In the past, Bootstrap was targeting a 940px width page, perfect for most desktop-oriented websites. But mobile growth has only continued to explode, and more and more websites need great mobile experiences to take advantage of this growth. With this in mind, Bootstrap 3 adds a set of classes that let you control grid behavior on all different devices. For example, you can configure your grid to not stack on small screens, or only expand into columns on large screens.
+
+# What changes with all the new updates to the old system
+
+With that change, the span-* classes are gone, so old grids will not work with the new grid system.
+
+The new grid system is powerful, and I expect it’s going to confuse a lot of people. Expect to spend a good amount of time in the grids section of the Bootstrap docs before you get the hang of it. I know I had to!
+
+
+#IE7, who are you?
+
+With Bootstrap 3, support for Internet Explorer 7 has been removed from the project. I will work on the html5 shiv but wn't use any modernizr for old browser support again for the follwing reason:
+
+	"We only consider people that will browse this page with a recent computer (2 years old at max)."
+
+
+
+##Five columns in footer
+
+I used the follwing .less code.
+
+    .col-md-2-4{
+      .make-md-column(2.4);
+       padding-left:7px;
+       padding-right: 7px;
+    }
+    .col-sm-2-4{
+      .make-sm-column(2.4);
+       padding-left:7px;
+       padding-right: 7px;
+    }
+
+And for the respective row, a 7px padding
+
+    .sevenpixels{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
 
 
 
