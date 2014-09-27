@@ -8615,6 +8615,9 @@ footer .sevenpixels .panel-body .rented {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
+  #property-summary .col-sm-3 {
+    width: 25%;
+  }
 }
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -8628,9 +8631,15 @@ footer .sevenpixels .panel-body .rented {
 @media only screen and (min-width: 1224px) {
   /* Styles */
 }
+#property-summary .col-sm-3 {
+  width: 25%;
+}
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
   /* Styles */
+  #property-summary .col-sm-3 {
+    width: 25%;
+  }
 }
 /* iPhone 4 ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
