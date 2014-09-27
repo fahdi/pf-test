@@ -23,6 +23,15 @@
 		{
 			"img": "assets/owl6.jpg",
 			"alt" : "Owl Image 2"
+		},
+		{
+			"img": "assets/owl7.jpg",
+			"alt" : "Owl Image 2"
+		},
+		{
+			"img": "assets/owl8.jpg",
+			"alt" : "Owl Image 2"
 		}
 	]
+
 }

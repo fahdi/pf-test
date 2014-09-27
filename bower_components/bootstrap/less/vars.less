@@ -12,11 +12,8 @@
 @gray:                   lighten(#000, 33.5%); // #555
 @gray-light:             lighten(#000, 46.7%); // #777 
 @gray-lighter:           lighten(#000, 93.5%); // #eee
-
-// Custom colors for propertyfinder
 @gray-custom-bg:		 #edecf1;	// For propertyfinder
 @gray-custom-text:		 #9698af; 
-@gray-custom-agent-h-color:#4a4c61; 
 
 @brand-primary:         #428bca;
 @brand-success:         #5cb85c;
@@ -54,7 +51,6 @@
 @font-size-base:          16px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
-@font-size-smaller:       ceil((@font-size-base * 0.75)); // 12 pixels for propertyfinder since base font is now 16px 
 
 @font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
 @font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
@@ -309,7 +305,7 @@
 //** Number of columns in the grid.
 @grid-columns:              12;
 //** Padding between columns. Gets divided in half for the left and right.
-@grid-gutter-width:         20px;
+@grid-gutter-width:         30px;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 @grid-float-breakpoint:     @screen-sm-min;
@@ -327,7 +323,7 @@
 @container-sm:                 @container-tablet;
 
 // Medium screen / desktop
-@container-desktop:            ((940px + @grid-gutter-width));
+@container-desktop:            ((920px + @grid-gutter-width));
 //** For `@screen-md-min` and up.
 @container-md:                 @container-desktop;
 
@@ -345,8 +341,7 @@
 @navbar-height:                    50px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-border-radius:             @border-radius-base;
-@navbar-padding-horizontal:        floor((@grid-gutter-width / 2)); // Just for propertyfinder
-@navbar-padding-horizontal-mobile: floor((@grid-gutter-width / 2)); // Just for propertyfinder
+@navbar-padding-horizontal:        floor((@grid-gutter-width / 2+10));
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
