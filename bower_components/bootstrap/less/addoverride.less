@@ -12,6 +12,24 @@ h1.property_heading {
     color:#4b4d59;
 }
 
+.smallones{
+    border-radius: 0;
+    border-width: 1pt 0 0 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: -87px;
+    border-color: #504e5b;
+    border-style: solid;
+    li{
+    padding: 2px 2px 0 2px;
+     img {
+        // Styling the second occurence of slides which are the thumbnails essentially
+        width: 84px;
+        height: 70px;
+        overflow: hidden;
+    }
+    }
+}
+
 // All sections headings
 
 section h2 {
@@ -99,50 +117,92 @@ section#property-description{
         background-color: #c71f40;
     }
     .button {
-        text-transform: uppercase;
-        color: #fff;
+        color: #ffffff;
         background-color: #c71f40;
-        border:none;
         border-color: transparent;
         display: block;
         width: 100%;
-        padding: 10px 15px;
-        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 18px;
         line-height: 1.33;
         border-radius: 0;
+        padding: 15px;
         text-align: left;
         outline: none;
+        text-transform: uppercase;
         // Inreasing the glypicon size by 30%
         .glyphicon {
             font-size:130%;
+            margin:0 20px 0 25px;
+            padding: 10px 0;
         }
     }
- 
-    //Setting up the CSS3 transitions for the right sidebar
-    .ph-number.open {
-        height: 50px;
-    }
+
+
+    //Setting up the CSS3 transitions for the right sidebar's phone iformation
     .ph-number {
         background-color: rgba(255, 255, 255, 1);
-        height: 0;
+        height: 60px;
+        width:95%;
+        margin: -1px 2.5%;
         text-align: center;
         line-height: 250%;
         font-size: 150%;
         font-weight: bold;
         overflow: hidden;
-        //transition: height 300ms ease-in;
+        transition: height 100ms ease-in;
     }
-    span.glyphicon {
-        padding:10px 15px;
-    }
-    hr {
+
+     hr {
         height:1pt;
         margin:0;
         border:0;
         border-top: 1pt solid #c77d8a;
-        width:90%;
+        width:95%;
         margin:0 auto;
     }
+
+
+  
+    div.contact-email{
+            
+            .formfields{
+                 background-color: #fff;
+                 padding: 10px;
+                 width:95%;
+                 margin: 0 2.5%;
+                 transition: height 300ms ease-in;
+                 animation-timing-function:ease-in;
+                 height: 304px;
+            }
+            .input-group {
+                width: 100%;
+
+            }
+
+        }
+
+    div.make-offer{
+
+        
+            .offer-formfields{
+                 background-color: #fff;
+                 padding: 10px;
+                 width:95%;
+                 margin: 0 2.5% 23px 2.5%;
+                 transition: height 300ms ease-in;
+                 animation-timing-function:ease-in;
+                 height: 304px;
+            }
+            .input-group {
+                width: 100%;
+
+            }
+
+        }    
+
+ 
 }
 // Advertisment Section
 .ad {
@@ -323,30 +383,38 @@ footer {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
-// property Summary
 
-#property-summary {
-    .col-sm-3 {
-            width:25%;
-
-        }
-    .col-md-3 {
-            width:25%;
-            
-        }    
-    }
 }
+
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
 /* Styles */
+        
+#property-summary {
+    .col-sm-3 {
+            width:47%;
+            display: inline-block;
+        }
+
+    }
+
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
+    
+#property-summary {
+    .col-sm-3 {
+            width:45%;
+            display: inline-block;
+        }
+
+    }
+
 }
 
 /* iPads (portrait and landscape) ----------- */

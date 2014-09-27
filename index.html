@@ -11,20 +11,20 @@
   <!-- Bootstrap core CSS -->
   <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 
-  <!-- Modernizr -->
-  <script src="bower_components/FlexSlider/demo/js/modernizr.js"></script>
+<!-- Modernizr -->
+<script src="bower_components/FlexSlider/demo/js/modernizr.js"></script>
 
 </head>
 <body>
   <div class="navbar  navbar-inverse" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target=".navbar-collapse">
           <span class="sr-only">Toggle Info</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -47,47 +47,73 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        
-          <div class="panel  details">
-            <div class="panel-body">
-              <ul class="details">
-                <li><span class="glyphicon glyphicon-map-marker"></span> Apartment</li>
-                <li><span class="glyphicon glyphicon-map-marker"></span> 3 beds</li>
-                <li><span class="glyphicon glyphicon-map-marker"></span> 2 baths</li>
-                <li><span class="glyphicon glyphicon-map-marker"></span> 1350 sqft</li>
-                <li><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>250,000</strong></span> AED/year</li>
+
+        <div class="panel  details">
+          <div class="panel-body">
+            <ul class="details">
+              <li><span class="glyphicon glyphicon-map-marker"></span> Apartment</li>
+              <li><span class="glyphicon glyphicon-map-marker"></span> 3 beds</li>
+              <li><span class="glyphicon glyphicon-map-marker"></span> 2 baths</li>
+              <li><span class="glyphicon glyphicon-map-marker"></span> 1350 sqft</li>
+              <li><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>250,000</strong></span> AED/year</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="panel" id="main" role="main">
+          <section class="slider">
+            <div id="slider" class="flexslider">
+              <ul class="slides">
+                <li>
+                  <img src="images/wide.jpg" />
+                </li>
+                <li>
+                  <img src="images/wide.jpg" />
+                </li>
+                <li>
+                  <img src="images/wide.jpg" />
+                </li>
+                <li>
+                  <img src="images/wide.jpg" />
+                </li>
+                <li>
+                  <img src="images/wide.jpg" />
+                </li>
+                <li>
+                  <img src="images/wide.jpg" />
+                </li>
+                <li>
+                  <img src="images/wide.jpg" />
+                </li>
               </ul>
             </div>
-          
-        </div>
-        <div class="panel  wide" id="main" role="main">
-              <section class="slider">
-        <div class="flexslider">
-          <ul class="slides">
-            <li data-thumb="images/a.jpg">
-              <img src="images/wide.jpg" />
-            </li>
-            <li data-thumb="images/b.jpg">
-               <img src="images/wide.jpg" />
-            </li>
-            <li data-thumb="images/c.jpg">
-               <img src="images/wide.jpg" />
-            </li>
-            <li data-thumb="images/d.jpg">
-               <img src="images/wide.jpg" />
-            </li>
-            <li data-thumb="images/e.jpg">
-               <img src="images/wide.jpg" />
-            </li>
-            <li data-thumb="images/f.jpg">
-               <img src="images/wide.jpg" />
-            </li>
-            <li data-thumb="images/g.jpg">
-               <img src="images/wide.jpg" />
-            </li>
-          </ul>
-        </div>
-      </section>
+            <div id="carousel" class="flexslider smallones">
+              <ul class="slides">
+                <li>
+                  <img src="images/a.jpg" />
+                </li>
+                <li>
+                  <img src="images/b.jpg" />
+                </li>
+                <li>
+                  <img src="images/c.jpg" />
+                </li>
+                <li>
+                  <img src="images/d.jpg" />
+                </li>
+                <li>
+                  <img src="images/e.jpg" />
+                </li>
+                <li>
+                  <img src="images/f.jpg" />
+                </li>
+                <li>
+                  <img src="images/g.jpg" />
+                </li>
+
+              </ul>
+            </div>
+          </section>
         </div>
         <section id="property-description">
           <h2 class="description-title">Property Description</h2><p class="pull-right right">REF : <span class="rent">F4-R-163</span></p>
@@ -150,122 +176,189 @@
             </div>
           </div>
           <div class="buttons">
-            <button class="button button-phone"><span class="glyphicon glyphicon-th"></span> Contact by Phone</button>
-            <hr/>
-            <div class="ph-number"><a href="tel:0551234567">055 123 45 67 </a></div>
-            <button class="button button-contact-by-mail" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-envelope"></span> Contact by Email</button>
-            <hr/>
-            <button class="button button-contact-by-mail" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-edit"></span> Make an Offer</button>
-          </div>
-        </section>
-        <section class="ad">
-          <h2>Advertisment</h2>
-          <div class="ad-container">
-            MPU
-          </div>
-        </section>
-        <section class="social">
-          <div class="buttonswhite">
+            <div class="collapse-group">
+              <button class="button button-phone " data-toggle="collapse" data-target="#agentphone"><span class="glyphicon glyphicon-th"></span> Contact by Phone</button>
+              <hr/>
 
-            <button class="buttonwhite fav" data-propertyid="16" data-developerid="00" data-contactno="055 123 45 67"><span class="glyphicon glyphicon-star-empty"></span> Favorite this property</button>
-            <hr/>
-            <button class="buttonwhite print" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-file"></span> Print Details in PDF</button>
-            <hr/>
-            <button class="buttonwhite email" data-toggle="modal" data-target="#messageModal"><span class="glyphicon glyphicon-user"></span> Email to friend</button>
-            <hr/>
-            <button class="buttonwhite button-fb" data-toggle="modal" data-target="#messageModal"><i class="fa fa-facebook bold"></i> Share on facebook</button>
-          </div>
+              <div class="ph-number collapse" id="agentphone"><a href="tel:0551234567">055 123 45 67 </a></div>
 
-        </section>
+              <button class="button button-contact-by-mail "  data-toggle="collapse" data-target="#email-form"><span class="glyphicon glyphicon-envelope"></span> Contact by Email</button>
 
-        <section class="market-price">
-          <h2> <span class="glyphicon glyphicon-signal"></span> Market Price <strong>Live</strong></h2>
-          <div class="divswhite">
-            <div class="divwhite div-phone" ><span class="rent">Price based on</span><br/>60 similar listings</div>
-            <hr/>
-            <div class="divwhite div-contact-by-mail"><span class="rent">Average Price</span><br/>AED/year 177,583</div>
-            <hr/>
-            <div class="divwhite div-email"><span class="rent">Average SQFT</span><br/>1,933 Sqft</div>
-            <hr/>
-            <div class="divwhite div-fb"><span class="rent">Average Price/SQFT</span><br/>AED/year 92 per sqft</div>
-            <hr/>
-            <button class="readmore btn">Read More</button>
-            <div class="clear"></div>
-          </div>
-        </section>
-      </div>
-    </div>
-    <footer>
-      <h2 class="extra_properties"><span class="glyphicon glyphicon-briefcase"></span> People also checked these properties out</h2>
-      <div class="row sevenpixels">
-        <div class="col-md-2-4 col-xs-6">
-          <div class="panel details">
-            <div class="panel-body">
-              <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
-              <h2 class="property_info">Dubai sports City</h2>
-              <hr style="height:2px;border-top:1px solid #ccc;"/>
-              <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+              <div class="contact-email collapse" id="email-form">
+
+                <form role="form">
+                  <div class="col-sm-12 col-md-12 col-lg-12 formfields">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <textarea name="InputMessage" placeholder="Type your message to the agent" id="InputMessage" class="form-control" rows="3" required></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Full Name" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input type="email" class="form-control" id="InputEmailFirst" name="InputEmail" placeholder=" Email Address" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input type="tel" class="form-control" id="InputPhone" name="InputPhone" placeholder="Phone"  required>
+                      </div>
+                    </div>
+                    <input type="submit" name="submit" id="submit" value="Send" class="btn btn-info pull-left">
+                  </div>
+                </form>
+
+              </div>
+              <hr/>
+              <button class="button button-contact-by-mail" data-toggle="collapse" data-target="#make-offer-form"><span class="glyphicon glyphicon-edit"></span> Make an Offer</button>
+
+              <div class="make-offer collapse" id="make-offer-form">
+
+                <form role="form">
+                  <div class="col-sm-12 col-md-12 col-lg-12 offer-formfields">
+                    <div class="form-group">
+                    <label for="InputName">Your offer</label>
+                      <div class="input-group">
+                        <input name="InputOffer" placeholder="" id="InputOffer" class="form-control" rows="3" required>  <span class="input-group-addon">AED/year</span><br/>
+                      </div>
+                       only serious and reasonable offers will be considered by the broker
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Full Name" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input type="email" class="form-control" id="InputEmailFirst" name="InputEmail" placeholder=" Email Address" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input type="tel" class="form-control" id="InputPhone" name="InputPhone" placeholder="Phone"  required>
+                      </div>
+                    </div>
+                    <input type="submit" name="submit" id="submit" value="Send" class="btn btn-info pull-left">
+                  </div>
+                </form>
+
+              </div>
             </div>
-          </div>
-        </div><!--/span-->
-        <div class="col-md-2-4 col-xs-6">
-          <div class="panel details">
-            <div class="panel-body">
-              <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
-              <h2 class="property_info">Dubai sports City</h2>
-              <hr style="height:2px;border-top:1px solid #ccc;"/>
-              <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+            <div class="clear"/>
             </div>
-          </div>
-        </div><!--/span-->
-        <div class="col-md-2-4 col-xs-6">
-          <div class="panel details">
-            <div class="panel-body">
-              <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
-              <h2 class="property_info">Dubai sports City</h2>
-              <hr style="height:2px;border-top:1px solid #ccc;"/>
-              <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+          </section>
+          <section class="ad">
+            <h2>Advertisment</h2>
+            <div class="ad-container">
+              MPU
             </div>
-          </div>
-        </div><!--/span-->
-        <div class="col-md-2-4 col-xs-6">
-          <div class="panel details">
-            <div class="panel-body">
-              <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
-              <h2 class="property_info">Dubai sports City</h2>
-              <hr style="height:2px;border-top:1px solid #ccc;"/>
-              <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+          </section>
+          <section class="social">
+            <div class="buttonswhite">
+
+              <button class="buttonwhite fav"><span class="glyphicon glyphicon-star"></span> Favorite this property</button>
+              <hr/>
+              <button class="buttonwhite print"><span class="glyphicon glyphicon-file"></span> Print Details in PDF</button>
+              <hr/>
+              <button class="buttonwhite email"><span class="glyphicon glyphicon-user"></span> Email to friend</button>
+              <hr/>
+              <button class="buttonwhite button-fb" data-toggle="modal" data-target="#messageModal"><i class="fa fa-facebook bold"></i> Share on facebook</button>
             </div>
-          </div>
-        </div><!--/span-->
-        <div class="col-md-2-4 col-xs-6">
-          <div class="panel details">
-            <div class="panel-body">
-              <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
-              <h2 class="property_info">Dubai sports City</h2>
-              <hr style="height:2px;border-top:1px solid #ccc;"/>
-              <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+
+          </section>
+
+          <section class="market-price">
+            <h2> <span class="glyphicon glyphicon-signal"></span> Market Price <strong>Live</strong></h2>
+            <div class="divswhite">
+              <div class="divwhite div-phone" ><span class="rent">Price based on</span><br/>60 similar listings</div>
+              <hr/>
+              <div class="divwhite div-contact-by-mail"><span class="rent">Average Price</span><br/>AED/year 177,583</div>
+              <hr/>
+              <div class="divwhite div-email"><span class="rent">Average SQFT</span><br/>1,933 Sqft</div>
+              <hr/>
+              <div class="divwhite div-fb"><span class="rent">Average Price/SQFT</span><br/>AED/year 92 per sqft</div>
+              <hr/>
+              <button class="readmore btn">Read More</button>
+              <div class="clear"></div>
             </div>
-          </div>
-        </div><!--/span-->
-      </div><!--/row-->
-      <div class="row">
-      <div class="col-sm-12">
-        <div class="panel details">
-          <div class="panel-body">
-            <ul class="details">
-              <li><span class="glyphicon glyphicon-map-marker"></span> Apartment</li>
-              <li><span class="glyphicon glyphicon-map-marker"></span> 3 beds</li>
-              <li><span class="glyphicon glyphicon-map-marker"></span> 2 baths</li>
-              <li><span class="glyphicon glyphicon-map-marker"></span> 1350 sqft</li>
-              <li><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>250,000</strong></span> AED/year</li>
-            </ul>
-          </div>
-        </div>
+          </section>
         </div>
       </div>
-    </footer>
-  </div><!--/.container-->
+      <footer>
+        <h2 class="extra_properties"><span class="glyphicon glyphicon-briefcase"></span> People also checked these properties out</h2>
+        <div class="row sevenpixels">
+          <div class="col-md-2-4 col-xs-6">
+            <div class="panel details">
+              <div class="panel-body">
+                <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
+                <h2 class="property_info">Dubai sports City</h2>
+                <hr style="height:2px;border-top:1px solid #ccc;"/>
+                <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+              </div>
+            </div>
+          </div><!--/span-->
+          <div class="col-md-2-4 col-xs-6">
+            <div class="panel details">
+              <div class="panel-body">
+                <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
+                <h2 class="property_info">Dubai sports City</h2>
+                <hr style="height:2px;border-top:1px solid #ccc;"/>
+                <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+              </div>
+            </div>
+          </div><!--/span-->
+          <div class="col-md-2-4 col-xs-6">
+            <div class="panel details">
+              <div class="panel-body">
+                <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
+                <h2 class="property_info">Dubai sports City</h2>
+                <hr style="height:2px;border-top:1px solid #ccc;"/>
+                <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+              </div>
+            </div>
+          </div><!--/span-->
+          <div class="col-md-2-4 col-xs-6">
+            <div class="panel details">
+              <div class="panel-body">
+                <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
+                <h2 class="property_info">Dubai sports City</h2>
+                <hr style="height:2px;border-top:1px solid #ccc;"/>
+                <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+              </div>
+            </div>
+          </div><!--/span-->
+          <div class="col-md-2-4 col-xs-6">
+            <div class="panel details">
+              <div class="panel-body">
+                <img src="images/footer_property.jpg" alt="Dubai Sports City"/>
+                <h2 class="property_info">Dubai sports City</h2>
+                <hr style="height:2px;border-top:1px solid #ccc;"/>
+                <p class="rented"><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>58,000</strong></span> AED/year</p>
+              </div>
+            </div>
+          </div><!--/span-->
+        </div><!--/row-->
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="panel details">
+              <div class="panel-body">
+                <ul class="details">
+                  <li><span class="glyphicon glyphicon-map-marker"></span> Apartment</li>
+                  <li><span class="glyphicon glyphicon-map-marker"></span> 3 beds</li>
+                  <li><span class="glyphicon glyphicon-map-marker"></span> 2 baths</li>
+                  <li><span class="glyphicon glyphicon-map-marker"></span> 1350 sqft</li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span> <span class="rent"><strong>250,000</strong></span> AED/year</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div><!--/.container-->
 <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
@@ -280,23 +373,35 @@
   <script defer src="bower_components/FlexSlider/jquery.flexslider.js"></script>
 
   <script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
-    });
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        controlNav: "thumbnails",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
+    $(window).load(function() {
+// The slider being synced must be initialized first
+$('#carousel').flexslider({
+  animation: "slide",
+  controlNav: false,
+  animationLoop: false,
+  slideshow: false,
+  itemWidth: 100,
+  itemMargin: 5,
+  asNavFor: '#slider',
+
+});
+
+$('#slider').flexslider({
+  animation: "slide",
+  controlNav: false,
+  animationLoop: false,
+  slideshow: false,
+  sync: "#carousel",
+  directionNav: false
+});
+});
+
   </script>
 
   <!-- Optional FlexSlider Additions -->
   <script src="bower_components/FlexSlider/demo/js/jquery.easing.js"></script>
   <script src="bower_components/FlexSlider/demo/js/jquery.mousewheel.js"></script>
-  
+
+
 </body>
 </html>
