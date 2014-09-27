@@ -8595,6 +8595,10 @@ footer .sevenpixels .panel-body .rented {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
+  .col-sm-3 {
+    width: 47%;
+    display: inline-block;
+  }
 }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
@@ -8616,7 +8620,7 @@ footer .sevenpixels .panel-body .rented {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
   #property-summary .col-sm-3 {
-    width: 25%;
+    width: 20%;
   }
 }
 /* iPads (landscape) ----------- */
