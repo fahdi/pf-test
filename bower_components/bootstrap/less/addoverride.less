@@ -1,6 +1,5 @@
 // Rent area
 // rent class to be in red color as in 'briefing' annotated image
-
 .rent {
     color: #c80529;
     text-transform:uppercase;
@@ -11,7 +10,6 @@ h1.property_heading {
     font-weight:500;
     color:#4b4d59;
 }
-
 .smallones{
     border-radius: 0;
     border-width: 1pt 0 0 0;
@@ -22,29 +20,26 @@ h1.property_heading {
     li{
         padding: 2px 2px 0 2px;
         img {
-// Styling the second occurence of slides which are the thumbnails essentially
-width: 84px;
-height: 70px;
-overflow: hidden;
+            // Styling the second occurence of slides which are the thumbnails essentially
+            width: 84px;
+            height: 70px;
+            overflow: hidden;
+        }
+    }
 }
-}
-}
-
 // All sections headings
-
 section h2 {
     text-transform: uppercase;
     font-size:@font-size-base;
 //padding:30px 0 15px 0;
 }
-
+// Property Description below the slider
 section#property-description{
     h2.description-title {
         float: left;
         margin-top: 0;
         padding: 0;  
     }
-
     p.right {
         float:right;
     }
@@ -53,11 +48,8 @@ section#property-description{
 .clear{
     clear:both;
 }
-
 // property Summary
-
 #property-summary {
-
     hr {
         height:1pt;
         margin:0;
@@ -71,33 +63,29 @@ section#property-description{
         padding: 15px;
     }
 }
-
 // Panels Additional Override Code. 
-
 .panel ul.details {
     padding-left:0;
     > li {
         list-style:none;
         float:left;
         padding:ceil((@padding-small-vertical/2));
+        margin-right: 10px;
     }
     > li:last-child {
         float:right;
+        margin: 0;
     }
 }
 .property_locations {
     text-transform:uppercase;
 }
-
 // Wide images area
 .wide img {
     width:100%;
 }
-
-
 // Agent / Developer contact area
 .contact-agent {
-
     img.photo {
         width:auto;
         height:100%;
@@ -106,40 +94,37 @@ section#property-description{
         color: @gray-custom-agent-h-color;
     }
     span[itemprop="agency"] {
-font-size: @font-size-smaller; // Custom added in variables.css
+        font-size: @font-size-smaller; // Custom added in variables.css
+    }
+    img.developer-logo {
+        width: 100%;
+        height: auto;
+    }
+    .buttons {
+        background-color: #c71f40;
+    }
+    .button {
+        color: #ffffff;
+        background-color: #c71f40;
+        border-color: transparent;
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: @font-size-base;
+        line-height: 1.33;
+        border-radius: 0;
+        padding: 15px;
+        text-align: left;
+        outline: none;
+        text-transform: uppercase;
+    // Inreasing the glypicon size by 30%
+    .glyphicon {
+        font-size:130%;
+        margin:0 20px 0 25px;
+        padding: 10px 0;
+    }
 }
-img.developer-logo {
-    width: 100%;
-    height: auto;
-}
-
-.buttons {
-    background-color: #c71f40;
-}
-.button {
-    color: #ffffff;
-    background-color: #c71f40;
-    border-color: transparent;
-    display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    font-size: @font-size-base;
-    line-height: 1.33;
-    border-radius: 0;
-    padding: 15px;
-    text-align: left;
-    outline: none;
-    text-transform: uppercase;
-// Inreasing the glypicon size by 30%
-.glyphicon {
-    font-size:130%;
-    margin:0 20px 0 25px;
-    padding: 10px 0;
-}
-}
-
-
 //Setting up the CSS3 transitions for the right sidebar's phone iformation
 .ph-number {
     background-color: rgba(255, 255, 255, 1);
@@ -155,7 +140,6 @@ img.developer-logo {
         color: #c71f40;
     }
 }
-
 hr {
     height:1pt;
     margin:0;
@@ -164,11 +148,7 @@ hr {
     width:95%;
     margin:0 auto;
 }
-
-
-
 div.contact-email{
-
     .formfields{
         background-color: #fff;
         padding: 10px;
@@ -180,14 +160,22 @@ div.contact-email{
     }
     .input-group {
         width: 100%;
-
+    }    
+    ::-webkit-input-placeholder {
+        color: #cecece;
     }
-
+    :-moz-placeholder { /* Firefox 18- */
+        color: #cecece;  
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+        color: #cecece;  
+    }
+    :-ms-input-placeholder {  
+        color: #cecece;  
+    }
 }
-
 div.make-offer{
-
-
+    padding-bottom: 5px;
     .offer-formfields{
         background-color: #fff;
         padding: 10px;
@@ -195,22 +183,29 @@ div.make-offer{
         margin: 0 2.5% 23px 2.5%;
         transition: height 300ms ease-in;
         animation-timing-function:ease-in;
-        height: 304px;
+        height: 340px;
     }
     .input-group {
         width: 100%;
-
     }
-
+    ::-webkit-input-placeholder {
+        color: #cecece;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        color: #cecece;  
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+        color: #cecece;  
+    }
+    :-ms-input-placeholder {  
+        color: #cecece;  
+    }
 }    
-
-
 }
 // Advertisment Section
 .ad {
     width:100%;
     margin-bottom:22px;
-
     h2 {
         text-transform: uppercase;
         font-size:@font-size-base;
@@ -257,7 +252,6 @@ div.make-offer{
             color:#494f5f;
         }
     }
-
     hr {
         height:1pt;
         margin:0;
@@ -279,10 +273,8 @@ div.make-offer{
 // Market price live section
 // Social sharing
 .market-price {
-
     .divswhite {
         background-color: #fff;
-
     }
     .divwhite {
         background-color: #fff;
@@ -317,7 +309,6 @@ div.make-offer{
 }
 // Footer Section
 footer {
-
 // Generate five column grid based on the existing 1 column one. In short 12/5 = 2.4
 .col-md-2-4{
     .make-md-column(2.4);
@@ -375,17 +366,13 @@ hr {
         color:#c80529;
     }
 }
-
 }
-
 // Overriding different small settings for a multitude of devices, not much just tinkering a bit
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
     /* Styles */
-
     #property-summary {
         .col-sm-3 {
             width:47%;
@@ -396,8 +383,6 @@ and (max-device-width : 480px) {
         margin-top: -10px;
     }        
 }
-
-
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
@@ -408,23 +393,17 @@ and (min-width : 321px) {
             display: inline-block;
         }
     }
-
-
 }
-
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
     /* Styles */    
-
 }
-
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
     /* Styles */
-
 }
 /* iPads (landscape) ----------- */
 @media only screen 
@@ -433,7 +412,6 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
     /* Styles */
 }
-
 /* iPads (portrait) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
@@ -441,25 +419,19 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
     /* Styles */
 }
-
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
     /* Styles */
-
 }
-
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
     /* Styles */
-
 }
-
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
     /* Styles */
 }
-

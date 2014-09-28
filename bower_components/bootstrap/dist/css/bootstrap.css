@@ -8334,9 +8334,11 @@ section#property-description p.right {
   list-style: none;
   float: left;
   padding: 3px;
+  margin-right: 10px;
 }
 .panel ul.details > li:last-child {
   float: right;
+  margin: 0;
 }
 .property_locations {
   text-transform: uppercase;
@@ -8416,6 +8418,23 @@ section#property-description p.right {
 .contact-agent div.contact-email .input-group {
   width: 100%;
 }
+.contact-agent div.contact-email ::-webkit-input-placeholder {
+  color: #cecece;
+}
+.contact-agent div.contact-email :-moz-placeholder {
+  /* Firefox 18- */
+  color: #cecece;
+}
+.contact-agent div.contact-email ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #cecece;
+}
+.contact-agent div.contact-email :-ms-input-placeholder {
+  color: #cecece;
+}
+.contact-agent div.make-offer {
+  padding-bottom: 5px;
+}
 .contact-agent div.make-offer .offer-formfields {
   background-color: #fff;
   padding: 10px;
@@ -8423,10 +8442,24 @@ section#property-description p.right {
   margin: 0 2.5% 23px 2.5%;
   transition: height 300ms ease-in;
   animation-timing-function: ease-in;
-  height: 304px;
+  height: 340px;
 }
 .contact-agent div.make-offer .input-group {
   width: 100%;
+}
+.contact-agent div.make-offer ::-webkit-input-placeholder {
+  color: #cecece;
+}
+.contact-agent div.make-offer :-moz-placeholder {
+  /* Firefox 18- */
+  color: #cecece;
+}
+.contact-agent div.make-offer ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #cecece;
+}
+.contact-agent div.make-offer :-ms-input-placeholder {
+  color: #cecece;
 }
 .ad {
   width: 100%;
