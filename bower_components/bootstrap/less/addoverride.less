@@ -44,10 +44,10 @@ section#property-description{
         margin-top: 0;
         padding: 0;  
     }
-// Make 
-p.right {
-    float:right;
-}
+
+    p.right {
+        float:right;
+    }
 }
 // A clear:both div
 .clear{
@@ -149,9 +149,11 @@ img.developer-logo {
     text-align: center;
     line-height: 250%;
     font-size: 150%;
-    font-weight: bold;
     overflow: hidden;
     transition: height 100ms ease-in;
+    a {
+        color: #c71f40;
+    }
 }
 
 hr {
@@ -423,29 +425,27 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
     /* Styles */
 
+}
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    /* Styles */
+}
 
-    /* iPads (landscape) ----------- */
-    @media only screen 
-    and (min-device-width : 768px) 
-    and (max-device-width : 1024px) 
-    and (orientation : landscape) {
-        /* Styles */
-    }
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    /* Styles */
+}
 
-    /* iPads (portrait) ----------- */
-    @media only screen 
-    and (min-device-width : 768px) 
-    and (max-device-width : 1024px) 
-    and (orientation : portrait) {
-        /* Styles */
-    }
-
-    /* Desktops and laptops ----------- */
-    @media only screen 
-    and (min-width : 1224px) {
-        /* Styles */
-    }
-
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    /* Styles */
 
 }
 

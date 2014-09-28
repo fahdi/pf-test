@@ -8390,9 +8390,11 @@ section#property-description p.right {
   text-align: center;
   line-height: 250%;
   font-size: 150%;
-  font-weight: bold;
   overflow: hidden;
   transition: height 100ms ease-in;
+}
+.contact-agent .ph-number a {
+  color: #c71f40;
 }
 .contact-agent hr {
   height: 1pt;
@@ -8618,9 +8620,18 @@ footer .sevenpixels .panel-body .rented {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
-  /* iPads (landscape) ----------- */
-  /* iPads (portrait) ----------- */
-  /* Desktops and laptops ----------- */
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
 }
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
