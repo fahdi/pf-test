@@ -8347,8 +8347,8 @@ section#property-description p.right {
   width: 100%;
 }
 .contact-agent img.photo {
-  width: auto;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 .contact-agent span[itemprop="name"] {
   color: #4a4c61;
@@ -8357,7 +8357,7 @@ section#property-description p.right {
   font-size: 12px;
 }
 .contact-agent img.developer-logo {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 .contact-agent .buttons {
@@ -8494,7 +8494,7 @@ section#property-description p.right {
   margin: 0 auto;
   padding: 5px 0;
   width: 95%;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.33;
   border-radius: 0;
   text-align: left;
@@ -8636,6 +8636,27 @@ footer .sevenpixels .panel-body .rented {
   }
   .smallones {
     margin-top: -10px;
+  }
+  .panel ul.details {
+    -moz-column-count: 1;
+    -moz-column-gap: 0;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0;
+    column-count: 1;
+    column-gap: 0;
+  }
+  .panel ul.details > li {
+    list-style: none;
+    float: left;
+    padding: 3px;
+    margin-right: 10px;
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+  }
+  .panel ul.details > li:last-child {
+    float: left;
+    margin: 0;
   }
 }
 /* Smartphones (landscape) ----------- */

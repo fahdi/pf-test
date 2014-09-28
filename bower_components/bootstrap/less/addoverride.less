@@ -87,8 +87,10 @@ section#property-description{
 // Agent / Developer contact area
 .contact-agent {
     img.photo {
-        width:auto;
-        height:100%;
+        
+        max-width: 100%;
+        height:auto;
+
     }
     span[itemprop="name"] {
         color: @gray-custom-agent-h-color;
@@ -97,8 +99,8 @@ section#property-description{
         font-size: @font-size-smaller; // Custom added in variables.css
     }
     img.developer-logo {
-        width: 100%;
-        height: auto;
+        max-width: 100%;
+        height:auto;
     }
     .buttons {
         background-color: #c71f40;
@@ -238,7 +240,7 @@ div.make-offer{
         margin:0 auto;
         padding:5px 0;
         width: 95%;
-        font-size: 14px;
+        font-size: @font-size-base;
         line-height: 1.33;
         border-radius: 0;
         text-align: left;
@@ -381,7 +383,29 @@ and (max-device-width : 480px) {
     }            
     .smallones{
         margin-top: -10px;
-    }        
+    } 
+    // Panels Additional Override Code. 
+    .panel ul.details {
+        -moz-column-count: 1;
+        -moz-column-gap: 0;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 0;
+        column-count: 1;
+        column-gap: 0;
+        > li {
+            list-style:none;
+            float:left;
+            padding:ceil((@padding-small-vertical/2));
+            margin-right: 10px;
+            display: block;
+            box-sizing: border-box;
+            width: 200px;
+        }
+        > li:last-child {
+            float:left;
+            margin: 0;
+        }
+    }       
 }
 /* Smartphones (landscape) ----------- */
 @media only screen 
@@ -393,6 +417,7 @@ and (min-width : 321px) {
             display: inline-block;
         }
     }
+
 }
 /* Smartphones (portrait) ----------- */
 @media only screen 

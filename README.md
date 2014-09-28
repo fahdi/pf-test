@@ -144,5 +144,7 @@ I used the follwing .less code.
        padding-right: 7px;
     }
 
+##About slider
 
+I moved the thumbnails on mobile and small screens to under the full image as it looked awkward and too small once moving to small screens. The desktop version is just like as in mockup. 
 
