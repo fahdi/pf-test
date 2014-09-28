@@ -26968,3 +26968,1419 @@ Total 1.7s
 
 Completed in 4.745s at Sun Sep 28 2014 02:44:12 GMT+0500 (PKT) - Waiting...
 
+
+  [Restored]
+Last login: Sun Sep 28 02:53:25 on ttys000
+bootstrap $ grunt watch
+Running "watch" task
+Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.94 kB → 182.98 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:03:27 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  102ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 4.538s at Sun Sep 28 2014 03:03:29 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.94 kB → 182.98 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:04:04 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  106ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.622s at Sun Sep 28 2014 03:04:05 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.48 kB → 182.52 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:05:18 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  109ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.519s at Sun Sep 28 2014 03:05:19 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.54 kB → 182.58 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:08:50 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  91ms  ▇▇▇▇▇▇ 6%
+Total 1.5s
+
+Completed in 4.428s at Sun Sep 28 2014 03:08:52 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.54 kB → 182.58 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:08:54 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  98ms  ▇▇▇▇▇▇ 6%
+Total 1.5s
+
+Completed in 3.570s at Sun Sep 28 2014 03:08:56 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.54 kB → 182.58 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:09:13 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  113ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.428s at Sun Sep 28 2014 03:09:15 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.54 kB → 182.58 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:14:44 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  98ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.423s at Sun Sep 28 2014 03:14:45 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:14:58 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  102ms  ▇▇▇▇▇▇▇ 7%
+Total 1.5s
+
+Completed in 3.331s at Sun Sep 28 2014 03:14:59 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:15:10 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  106ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.499s at Sun Sep 28 2014 03:15:12 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:15:23 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  101ms  ▇▇▇▇▇▇▇ 7%
+Total 1.5s
+
+Completed in 3.495s at Sun Sep 28 2014 03:15:25 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:21:41 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  106ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.743s at Sun Sep 28 2014 03:21:43 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:22:01 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+less:compileTheme  109ms  ▇▇▇▇▇▇▇ 7%
+Total 1.5s
+
+Completed in 3.354s at Sun Sep 28 2014 03:22:03 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 22:22:25 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  100ms  ▇▇▇▇▇▇ 6%
+Total 1.5s
+
+Completed in 3.555s at Sun Sep 28 2014 03:22:26 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 23:21:39 UTC)
+less:compileCore    1.8s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  118ms  ▇▇▇▇▇▇ 6%
+Total 1.9s
+
+Completed in 5.024s at Sun Sep 28 2014 04:21:41 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 23:21:46 UTC)
+less:compileCore    1.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  110ms  ▇▇▇▇▇▇ 6%
+Total 1.8s
+
+Completed in 4.749s at Sun Sep 28 2014 04:21:48 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.58 kB → 182.62 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-27 23:22:20 UTC)
+less:compileCore    1.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  116ms  ▇▇▇▇▇▇ 6%
+Total 1.8s
+
+Completed in 4.643s at Sun Sep 28 2014 04:22:22 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.6 kB → 182.64 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:10:17 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  96ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.671s at Sun Sep 28 2014 05:10:18 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.6 kB → 182.64 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:11:28 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  94ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.077s at Sun Sep 28 2014 05:11:30 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.6 kB → 182.64 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:12:25 UTC)
+less:compileCore    1.8s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  115ms  ▇▇▇▇▇▇ 6%
+Total 1.9s
+
+Completed in 4.347s at Sun Sep 28 2014 05:12:26 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.62 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:13:03 UTC)
+less:compileCore    1.8s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  108ms  ▇▇▇▇▇▇ 6%
+Total 1.9s
+
+Completed in 4.188s at Sun Sep 28 2014 05:13:05 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.62 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:13:22 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  97ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.046s at Sun Sep 28 2014 05:13:24 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.62 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:13:39 UTC)
+less:compileCore    1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+less:compileTheme  128ms  ▇▇▇▇▇▇▇ 8%
+Total 1.7s
+
+Completed in 3.693s at Sun Sep 28 2014 05:13:41 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.62 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:13:44 UTC)
+less:compileCore    1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  106ms  ▇▇▇▇▇▇ 6%
+Total 1.7s
+
+Completed in 4.049s at Sun Sep 28 2014 05:13:46 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.62 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:14:10 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  105ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.626s at Sun Sep 28 2014 05:14:11 GMT+0500 (PKT) - Waiting...
+>> File "less/modals.less" changed.
+>> File "less/glyphicons.less" changed.
+>> File "less/navbar.less" changed.
+>> File "less/list-group.less" changed.
+>> File "less/code.less" changed.
+>> File "less/responsive-embed.less" changed.
+>> File "less/scaffolding.less" changed.
+>> File "less/responsive-utilities.less" changed.
+>> File "less/jumbotron.less" changed.
+>> File "less/vars.less" changed.
+>> File "less/grid.less" changed.
+>> File "less/pagination.less" changed.
+>> File "less/utilities.less" changed.
+>> File "less/type.less" changed.
+>> File "less/forms.less" changed.
+>> File "less/tables.less" changed.
+>> File "js/carousel.js" changed.
+>> File "js/dropdown.js" changed.
+>> File "js/tooltip.js" changed.
+>> File "less/close.less" changed.
+>> File "less/button-groups.less" changed.
+>> File "less/carousel.less" changed.
+>> File "less/thumbnails.less" changed.
+>> File "js/transition.js" changed.
+>> File "js/scrollspy.js" changed.
+>> File "js/button.js" changed.
+>> File "js/affix.js" changed.
+>> File "less/buttons.less" changed.
+>> File "less/navs.less" changed.
+>> File "less/theme.less" changed.
+>> File "less/popovers.less" changed.
+>> File "less/print.less" changed.
+>> File "js/popover.js" changed.
+>> File "less/badges.less" changed.
+>> File "less/pager.less" changed.
+>> File "less/dropdowns.less" changed.
+>> File "js/collapse.js" changed.
+>> File "less/normalize.less" changed.
+>> File "js/tab.js" changed.
+>> File "less/media.less" changed.
+>> File "less/wells.less" changed.
+>> File "less/labels.less" changed.
+>> File "js/alert.js" changed.
+>> File "less/alerts.less" changed.
+>> File "less/input-groups.less" changed.
+>> File "less/panels.less" changed.
+>> File "less/variables.less" changed.
+>> File "js/modal.js" changed.
+>> File "less/addoverride.less" changed.
+>> File "less/breadcrumbs.less" changed.
+>> File "less/progress-bars.less" changed.
+>> File "less/bootstrap.less" changed.
+>> File "less/component-animations.less" changed.
+>> File "less/mixins.less" changed.
+>> File "less/tooltip.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.62 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 00:40:33 UTC)
+less:compileCore    1.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  106ms  ▇▇▇▇▇▇ 6%
+Total 1.8s
+
+Running "jshint:src" (jshint) task
+ERROR: Can't find config file: js/.jshintrc
+
+
+Execution Time (2014-09-28 00:40:36 UTC)
+loading tasks  4ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 31%
+jshint:src     8ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 62%
+Total 13ms
+
+Completed in 10.144s at Sun Sep 28 2014 05:40:36 GMT+0500 (PKT) - Waiting...
+>> File "../FlexSlider/flexslider.less" changed.
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.62 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:01:33 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  106ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 4.755s at Sun Sep 28 2014 06:01:34 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.6 kB → 182.64 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:02:29 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  101ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.069s at Sun Sep 28 2014 06:02:30 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.6 kB → 182.64 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:02:46 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  97ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.221s at Sun Sep 28 2014 06:02:48 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+>> ParseError: Unrecognised input in less/addoverride.less on line 144, column 1:
+>> 143 //Setting up the CSS3 transitions for the right sidebar's phone iformation
+>> 144 .ph-number {
+>> 145     background-color: rgba(255, 255, 255, 1);
+Warning: Error compiling less/bootstrap.less Use --force to continue.
+
+Aborted due to warnings.
+
+
+Execution Time (2014-09-28 01:02:55 UTC)
+loading tasks       3ms  ▇▇ 1%
+less:compileCore  207ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
+Total 211ms
+
+Completed in 2.109s at Sun Sep 28 2014 06:02:55 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.61 kB → 182.65 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:03:05 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  103ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.684s at Sun Sep 28 2014 06:03:07 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.61 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:03:56 UTC)
+less:compileCore   1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  93ms  ▇▇▇▇▇▇ 6%
+Total 1.7s
+
+Completed in 4.808s at Sun Sep 28 2014 06:03:58 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.61 kB → 182.66 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:04:20 UTC)
+less:compileCore    2.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  151ms  ▇▇▇▇▇▇ 6%
+Total 2.6s
+
+Completed in 4.687s at Sun Sep 28 2014 06:04:22 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.6 kB → 182.64 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:04:36 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  93ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.292s at Sun Sep 28 2014 06:04:38 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.65 kB → 182.69 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:04:42 UTC)
+less:compileCore    1.9s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  122ms  ▇▇▇▇▇▇ 6%
+Total 2s
+
+Completed in 4.055s at Sun Sep 28 2014 06:04:44 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+>> ParseError: missing opening `{` in less/addoverride.less on line 452, column 1:
+>> 451 
+>> 452 }
+>> 453
+Warning: Error compiling less/bootstrap.less Use --force to continue.
+
+Aborted due to warnings.
+
+
+Execution Time (2014-09-28 01:05:07 UTC)
+loading tasks       3ms  ▇▇ 1%
+less:compileCore  249ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
+Total 252ms
+
+Completed in 2.166s at Sun Sep 28 2014 06:05:08 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.96 kB → 183 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:05:26 UTC)
+less:compileCore    1.9s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 95%
+less:compileTheme  103ms  ▇▇▇▇▇ 5%
+Total 2s
+
+Completed in 3.996s at Sun Sep 28 2014 06:05:28 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.96 kB → 183 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:05:41 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  107ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.710s at Sun Sep 28 2014 06:05:42 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+>> ParseError: Unrecognised input in less/addoverride.less on line 9, column 22:
+>> 8 // Heading
+>> 9 h1.property_heading {.panel ul.details > li:last-child
+>> 10     font-size:22px;
+Warning: Error compiling less/bootstrap.less Use --force to continue.
+
+Aborted due to warnings.
+
+
+Execution Time (2014-09-28 01:14:00 UTC)
+loading tasks       5ms  ▇▇▇ 2%
+less:compileCore  218ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 97%
+Total 224ms
+
+Completed in 3.240s at Sun Sep 28 2014 06:14:00 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+>> ParseError: Unrecognised input in less/addoverride.less on line 9, column 22:
+>> 8 // Heading
+>> 9 h1.property_heading {.panel ul.details > li:last-child
+>> 10     font-size:22px;
+Warning: Error compiling less/bootstrap.less Use --force to continue.
+
+Aborted due to warnings.
+
+
+Execution Time (2014-09-28 01:14:29 UTC)
+loading tasks       5ms  ▇▇ 2%
+less:compileCore  227ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 97%
+Total 233ms
+
+Completed in 2.967s at Sun Sep 28 2014 06:14:29 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+>> ParseError: Unrecognised input in less/addoverride.less on line 9, column 22:
+>> 8 // Heading
+>> 9 h1.property_heading {.panel ul.details > li:last-child
+>> 10     font-size:22px;
+Warning: Error compiling less/bootstrap.less Use --force to continue.
+
+Aborted due to warnings.
+
+
+Execution Time (2014-09-28 01:14:34 UTC)
+loading tasks       3ms  ▇▇ 1%
+less:compileCore  213ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 98%
+Total 217ms
+
+Completed in 2.046s at Sun Sep 28 2014 06:14:35 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+>> ParseError: Unrecognised input in less/addoverride.less on line 9, column 22:
+>> 8 // Heading
+>> 9 h1.property_heading {.panel ul.details > li:last-child
+>> 10     font-size:22px;
+Warning: Error compiling less/bootstrap.less Use --force to continue.
+
+Aborted due to warnings.
+
+
+Execution Time (2014-09-28 01:15:03 UTC)
+loading tasks       3ms  ▇▇ 1%
+less:compileCore  230ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
+Total 233ms
+
+Completed in 3.167s at Sun Sep 28 2014 06:15:04 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.99 kB → 183.03 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:15:31 UTC)
+less:compileCore    1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  120ms  ▇▇▇▇▇▇▇ 7%
+Total 1.7s
+
+Completed in 4.286s at Sun Sep 28 2014 06:15:32 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 182.99 kB → 183.03 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:21:33 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  100ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.159s at Sun Sep 28 2014 06:21:35 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:22:15 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  105ms  ▇▇▇▇▇▇▇ 7%
+Total 1.5s
+
+Completed in 3.369s at Sun Sep 28 2014 06:22:16 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:22:37 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  97ms  ▇▇▇▇▇▇ 6%
+Total 1.5s
+
+Completed in 3.376s at Sun Sep 28 2014 06:22:38 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:22:58 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  95ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 3.457s at Sun Sep 28 2014 06:23:00 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:23:34 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+less:compileTheme  123ms  ▇▇▇▇▇▇▇ 7%
+Total 1.7s
+
+Completed in 3.603s at Sun Sep 28 2014 06:23:35 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:23:54 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  97ms  ▇▇▇▇▇▇ 7%
+Total 1.5s
+
+Completed in 3.356s at Sun Sep 28 2014 06:23:55 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:24:19 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  91ms  ▇▇▇▇▇▇ 6%
+Total 1.5s
+
+Completed in 3.482s at Sun Sep 28 2014 06:24:20 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:24:31 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  102ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 3.593s at Sun Sep 28 2014 06:24:32 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:27:03 UTC)
+less:compileCore    1.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  129ms  ▇▇▇▇▇▇▇ 7%
+Total 1.8s
+
+Completed in 4.893s at Sun Sep 28 2014 06:27:05 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:27:15 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  100ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 3.616s at Sun Sep 28 2014 06:27:17 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.11 kB → 183.15 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:35:08 UTC)
+less:compileCore    1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  111ms  ▇▇▇▇▇▇ 6%
+Total 1.7s
+
+Completed in 4.745s at Sun Sep 28 2014 06:35:09 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.11 kB → 183.15 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:35:20 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  112ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 4.198s at Sun Sep 28 2014 06:35:21 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:36:20 UTC)
+less:compileCore    1.8s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  136ms  ▇▇▇▇▇▇▇ 7%
+Total 2s
+
+Completed in 4.870s at Sun Sep 28 2014 06:36:22 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:36:50 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  94ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 4.001s at Sun Sep 28 2014 06:36:52 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.25 kB → 183.29 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:37:01 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  94ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 3.551s at Sun Sep 28 2014 06:37:03 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.26 kB → 183.31 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:37:10 UTC)
+less:compileCore    1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  113ms  ▇▇▇▇▇▇▇ 7%
+Total 1.7s
+
+Completed in 3.733s at Sun Sep 28 2014 06:37:12 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.25 kB → 183.29 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:37:29 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  96ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 3.565s at Sun Sep 28 2014 06:37:31 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:37:46 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  87ms  ▇▇▇▇▇▇ 6%
+Total 1.5s
+
+Completed in 3.381s at Sun Sep 28 2014 06:37:47 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.26 kB → 183.3 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:38:16 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  111ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.458s at Sun Sep 28 2014 06:38:18 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.26 kB → 183.31 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:38:26 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  106ms  ▇▇▇▇▇▇▇ 7%
+Total 1.6s
+
+Completed in 3.447s at Sun Sep 28 2014 06:38:28 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.25 kB → 183.29 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:39:28 UTC)
+less:compileCore    1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  117ms  ▇▇▇▇▇▇▇ 7%
+Total 1.7s
+
+Completed in 4.554s at Sun Sep 28 2014 06:39:30 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.05 kB → 183.09 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:39:43 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  84ms  ▇▇▇▇▇ 5%
+Total 1.6s
+
+Completed in 3.540s at Sun Sep 28 2014 06:39:44 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.37 kB → 183.41 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:40:19 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  98ms  ▇▇▇▇▇▇ 6%
+Total 1.5s
+
+Completed in 3.472s at Sun Sep 28 2014 06:40:21 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.7 kB → 183.74 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:40:53 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  100ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 3.538s at Sun Sep 28 2014 06:40:54 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:41:15 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  105ms  ▇▇▇▇▇▇▇ 7%
+Total 1.5s
+
+Completed in 3.333s at Sun Sep 28 2014 06:41:17 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:46:32 UTC)
+less:compileCore    1.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  123ms  ▇▇▇▇▇▇▇ 7%
+Total 1.9s
+
+Completed in 4.933s at Sun Sep 28 2014 06:46:33 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:47:04 UTC)
+less:compileCore    1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+less:compileTheme  135ms  ▇▇▇▇▇▇▇▇ 8%
+Total 1.7s
+
+Completed in 4.650s at Sun Sep 28 2014 06:47:06 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:49:37 UTC)
+less:compileCore    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  105ms  ▇▇▇▇▇▇▇ 7%
+Total 1.5s
+
+Completed in 4.450s at Sun Sep 28 2014 06:49:38 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:49:45 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+less:compileTheme  122ms  ▇▇▇▇▇▇▇ 7%
+Total 1.7s
+
+Completed in 3.602s at Sun Sep 28 2014 06:49:47 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:50:08 UTC)
+less:compileCore    1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  101ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 3.482s at Sun Sep 28 2014 06:50:10 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:50:25 UTC)
+less:compileCore   1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+less:compileTheme  99ms  ▇▇▇▇▇▇▇ 7%
+Total 1.5s
+
+Completed in 3.340s at Sun Sep 28 2014 06:50:26 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:50:29 UTC)
+less:compileCore   1.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+less:compileTheme  99ms  ▇▇▇▇▇▇ 6%
+Total 1.6s
+
+Completed in 3.733s at Sun Sep 28 2014 06:50:30 GMT+0500 (PKT) - Waiting...
+>> File "less/addoverride.less" changed.
+Running "less:compileCore" (less) task
+File dist/css/bootstrap.css.map created.
+File dist/css/bootstrap.css created: 183.73 kB → 183.77 kB
+
+Running "less:compileTheme" (less) task
+File dist/css/bootstrap-theme.css.map created.
+File dist/css/bootstrap-theme.css created: 17.84 kB → 17.89 kB
+
+Done, without errors.
+
+
+Execution Time (2014-09-28 01:50:43 UTC)
+less:compileCore    1.9s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+less:compileTheme  162ms  ▇▇▇▇▇▇▇▇ 8%
+Total 2s
+
+Completed in 3.922s at Sun Sep 28 2014 06:50:45 GMT+0500 (PKT) - Waiting...
+
+

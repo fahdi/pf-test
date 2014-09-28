@@ -7,6 +7,8 @@ Continuous Integration: Beanstalk and SFTP
 Package Management: Bower and Node Package Manager
 Code Compiler and task manager: GruntJS
 CSS Preprocessor: Less http://lesscss.org/
+Syncronous testing on muliple devices using Ghostlab
+
 
 ##Tech Description
 
@@ -25,12 +27,11 @@ $ bower install desandro/masonry
 # Git endpoint 
 $ bower install git://github.com/user/package.git
 
-# I have used the follwing packages from github (commands)
+# I have used the follwing packages from github 
 
-$ bower install git://github.com/jssor/jquery-slider.git
-$ bower install --save fontawesome
+$ bower install --save FlexSlider
+$ bower install --save fontawesome ( For the facebook icon only, rest are all glyphicons that come with bootstrap)
 
-# Their demos site is http://jssor.com/
 
 # URL
 $ bower install http://example.com/script.js
@@ -142,15 +143,6 @@ I used the follwing .less code.
        padding-left:7px;
        padding-right: 7px;
     }
-
-And for the respective row, a 7px padding
-
-    .sevenpixels{
-        padding-left: 7px;
-        padding-right: 7px;
-    }
-
-
 
 
 
