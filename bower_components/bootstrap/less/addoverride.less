@@ -20,22 +20,22 @@ h1.property_heading {
     border-color: #504e5b;
     border-style: solid;
     li{
-    padding: 2px 2px 0 2px;
-     img {
-        // Styling the second occurence of slides which are the thumbnails essentially
-        width: 84px;
-        height: 70px;
-        overflow: hidden;
-    }
-    }
+        padding: 2px 2px 0 2px;
+        img {
+// Styling the second occurence of slides which are the thumbnails essentially
+width: 84px;
+height: 70px;
+overflow: hidden;
+}
+}
 }
 
 // All sections headings
 
 section h2 {
-        text-transform: uppercase;
-        font-size:16px;
-        //padding:30px 0 15px 0;
+    text-transform: uppercase;
+    font-size:@font-size-base;
+//padding:30px 0 15px 0;
 }
 
 section#property-description{
@@ -44,10 +44,10 @@ section#property-description{
         margin-top: 0;
         padding: 0;  
     }
-    // Make 
-    p.right {
-        float:right;
-    }
+// Make 
+p.right {
+    float:right;
+}
 }
 // A clear:both div
 .clear{
@@ -105,104 +105,104 @@ section#property-description{
     span[itemprop="name"] {
         color: @gray-custom-agent-h-color;
     }
-     span[itemprop="agency"] {
-        font-size: @font-size-smaller; // Custom added in variables.css
-    }
-    img.developer-logo {
-        width: 100%;
-        height: auto;
-    }
+    span[itemprop="agency"] {
+font-size: @font-size-smaller; // Custom added in variables.css
+}
+img.developer-logo {
+    width: 100%;
+    height: auto;
+}
 
-    .buttons {
-        background-color: #c71f40;
-    }
-    .button {
-        color: #ffffff;
-        background-color: #c71f40;
-        border-color: transparent;
-        display: block;
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 18px;
-        line-height: 1.33;
-        border-radius: 0;
-        padding: 15px;
-        text-align: left;
-        outline: none;
-        text-transform: uppercase;
-        // Inreasing the glypicon size by 30%
-        .glyphicon {
-            font-size:130%;
-            margin:0 20px 0 25px;
-            padding: 10px 0;
-        }
-    }
+.buttons {
+    background-color: #c71f40;
+}
+.button {
+    color: #ffffff;
+    background-color: #c71f40;
+    border-color: transparent;
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: @font-size-base;
+    line-height: 1.33;
+    border-radius: 0;
+    padding: 15px;
+    text-align: left;
+    outline: none;
+    text-transform: uppercase;
+// Inreasing the glypicon size by 30%
+.glyphicon {
+    font-size:130%;
+    margin:0 20px 0 25px;
+    padding: 10px 0;
+}
+}
 
 
-    //Setting up the CSS3 transitions for the right sidebar's phone iformation
-    .ph-number {
-        background-color: rgba(255, 255, 255, 1);
-        height: 60px;
+//Setting up the CSS3 transitions for the right sidebar's phone iformation
+.ph-number {
+    background-color: rgba(255, 255, 255, 1);
+    height: 60px;
+    width:95%;
+    margin: -1px 2.5%;
+    text-align: center;
+    line-height: 250%;
+    font-size: 150%;
+    font-weight: bold;
+    overflow: hidden;
+    transition: height 100ms ease-in;
+}
+
+hr {
+    height:1pt;
+    margin:0;
+    border:0;
+    border-top: 1pt solid #c77d8a;
+    width:95%;
+    margin:0 auto;
+}
+
+
+
+div.contact-email{
+
+    .formfields{
+        background-color: #fff;
+        padding: 10px;
         width:95%;
-        margin: -1px 2.5%;
-        text-align: center;
-        line-height: 250%;
-        font-size: 150%;
-        font-weight: bold;
-        overflow: hidden;
-        transition: height 100ms ease-in;
+        margin: 0 2.5%;
+        transition: height 300ms ease-in;
+        animation-timing-function:ease-in;
+        height: 304px;
+    }
+    .input-group {
+        width: 100%;
+
     }
 
-     hr {
-        height:1pt;
-        margin:0;
-        border:0;
-        border-top: 1pt solid #c77d8a;
+}
+
+div.make-offer{
+
+
+    .offer-formfields{
+        background-color: #fff;
+        padding: 10px;
         width:95%;
-        margin:0 auto;
+        margin: 0 2.5% 23px 2.5%;
+        transition: height 300ms ease-in;
+        animation-timing-function:ease-in;
+        height: 304px;
+    }
+    .input-group {
+        width: 100%;
+
     }
 
+}    
 
-  
-    div.contact-email{
-            
-            .formfields{
-                 background-color: #fff;
-                 padding: 10px;
-                 width:95%;
-                 margin: 0 2.5%;
-                 transition: height 300ms ease-in;
-                 animation-timing-function:ease-in;
-                 height: 304px;
-            }
-            .input-group {
-                width: 100%;
 
-            }
-
-        }
-
-    div.make-offer{
-
-        
-            .offer-formfields{
-                 background-color: #fff;
-                 padding: 10px;
-                 width:95%;
-                 margin: 0 2.5% 23px 2.5%;
-                 transition: height 300ms ease-in;
-                 animation-timing-function:ease-in;
-                 height: 304px;
-            }
-            .input-group {
-                width: 100%;
-
-            }
-
-        }    
-
- 
 }
 // Advertisment Section
 .ad {
@@ -211,7 +211,7 @@ section#property-description{
 
     h2 {
         text-transform: uppercase;
-        font-size:16px;
+        font-size:@font-size-base;
     }
     .ad-container {
         height:250px;
@@ -255,7 +255,7 @@ section#property-description{
             color:#494f5f;
         }
     }
-    
+
     hr {
         height:1pt;
         margin:0;
@@ -316,63 +316,63 @@ section#property-description{
 // Footer Section
 footer {
 
-    // Generate five column grid based on the existing 1 column one. In short 12/5 = 2.4
-    .col-md-2-4{
-      .make-md-column(2.4);
-       padding-left:7px;
-       padding-right: 7px;
+// Generate five column grid based on the existing 1 column one. In short 12/5 = 2.4
+.col-md-2-4{
+    .make-md-column(2.4);
+    padding-left:7px;
+    padding-right: 7px;
+}
+.col-sm-2-4{
+    .make-sm-column(2.4);
+    padding-left:7px;
+    padding-right: 7px;
+}
+.sevenpixels{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+h2.extra_properties {
+    text-transform:uppercase;
+    text-align:center;
+    font-size:19px;
+}
+h2.property_info {
+    text-transform:capitalize;
+    font-size:15px;
+    display: inline-block;
+//border-bottom-width: 1px;
+//border-bottom-style: solid;
+padding:5px 5px 2px 5px;
+margin:0;
+}
+hr {
+    height: 1pt;
+    border-top-width: 1pt;
+    border-top-style: solid;
+    padding: 0 5px;
+    margin-top: -2px;
+    margin: -2px 5px 0 5px;
+    color:#d2d1d6;
+}
+// Fixing footer margins for good, mgiht need restyling for mobile devices
+.nomargins {
+    margin-left: -20px;
+    margin-right: 0px;
+}
+// Restyling footer panels
+.sevenpixels .panel-body
+{
+    padding:0;
+    img {
+        width:100%;
     }
-    .col-sm-2-4{
-      .make-sm-column(2.4);
-       padding-left:7px;
-       padding-right: 7px;
-    }
-    .sevenpixels{
-        padding-left: 7px;
-        padding-right: 7px;
-    }
-    h2.extra_properties {
-        text-transform:uppercase;
+    .rented {
         text-align:center;
-        font-size:19px;
+        font-size:13px;
+        padding:10px 10px;
+        color:#c80529;
     }
-    h2.property_info {
-        text-transform:capitalize;
-        font-size:15px;
-        display: inline-block;
-        //border-bottom-width: 1px;
-        //border-bottom-style: solid;
-        padding:5px 5px 2px 5px;
-        margin:0;
-    }
-    hr {
-        height: 1pt;
-        border-top-width: 1pt;
-        border-top-style: solid;
-        padding: 0 5px;
-        margin-top: -2px;
-        margin: -2px 5px 0 5px;
-        color:#d2d1d6;
-    }
-    // Fixing footer margins for good, mgiht need restyling for mobile devices
-    .nomargins {
-        margin-left: -20px;
-        margin-right: 0px;
-    }
-    // Restyling footer panels
-    .sevenpixels .panel-body
-    {
-        padding:0;
-        img {
-            width:100%;
-        }
-        .rented {
-            text-align:center;
-            font-size:13px;
-            padding:10px 10px;
-            color:#c80529;
-        }
-    }
+}
 
 }
 
@@ -382,41 +382,38 @@ footer {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles */
-.col-sm-3 {
+    /* Styles */
+
+    #property-summary {
+        .col-sm-3 {
             width:47%;
             display: inline-block;
         }
+    }            
+    .smallones{
+        margin-top: -10px;
+    }        
 }
 
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-/* Styles */
-        
-#property-summary {
-    .col-sm-3 {
-            width:47%;
+    /* Styles */
+    #property-summary {
+        .col-sm-3 {
+            width:22%;
             display: inline-block;
         }
-
     }
+
 
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-/* Styles */
-    
-#property-summary {
-    .col-sm-3 {
-            width:45%;
-            display: inline-block;
-        }
-
-    }
+    /* Styles */    
 
 }
 
@@ -424,56 +421,45 @@ and (max-width : 320px) {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-/* Styles */
-#property-summary {
-    .col-sm-3 {
-            width:20%;            
-        }
+    /* Styles */
+
+
+    /* iPads (landscape) ----------- */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : landscape) {
+        /* Styles */
     }
-}
 
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
-#property-summary {
-    .col-sm-3 {
-            width:25%;            
-        }
+    /* iPads (portrait) ----------- */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : portrait) {
+        /* Styles */
     }
+
+    /* Desktops and laptops ----------- */
+    @media only screen 
+    and (min-width : 1224px) {
+        /* Styles */
+    }
+
+
+}
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-/* Styles */
-#property-summary {
-    .col-sm-3 {
-            width:25%;            
-        }
-    }
+    /* Styles */
+
 }
 
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+    /* Styles */
 }
 

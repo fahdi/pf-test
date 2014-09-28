@@ -8369,7 +8369,7 @@ section#property-description p.right {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.33;
   border-radius: 0;
   padding: 15px;
@@ -8595,55 +8595,36 @@ footer .sevenpixels .panel-body .rented {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
-  .col-sm-3 {
+  #property-summary .col-sm-3 {
     width: 47%;
     display: inline-block;
+  }
+  .smallones {
+    margin-top: -10px;
   }
 }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
   /* Styles */
   #property-summary .col-sm-3 {
-    width: 47%;
+    width: 22%;
     display: inline-block;
   }
 }
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
   /* Styles */
-  #property-summary .col-sm-3 {
-    width: 45%;
-    display: inline-block;
-  }
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
-  #property-summary .col-sm-3 {
-    width: 20%;
-  }
-}
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Styles */
-}
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Styles */
-}
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  /* Styles */
-}
-#property-summary .col-sm-3 {
-  width: 25%;
+  /* iPads (landscape) ----------- */
+  /* iPads (portrait) ----------- */
+  /* Desktops and laptops ----------- */
 }
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
   /* Styles */
-  #property-summary .col-sm-3 {
-    width: 25%;
-  }
 }
 /* iPhone 4 ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
