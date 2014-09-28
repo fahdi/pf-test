@@ -1,4 +1,91 @@
-$ git log
+propertyfinder $ git log
+commit 3aede38f8b0eaeb539fbf5817aa23a31c42da032
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 06:53:26 2014 +0500
+
+    Styled the placeholder text in all forms.
+
+commit 816b65b0443941d98ffbbd3052f728e7307bd859
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 06:08:42 2014 +0500
+
+    File mode updated
+
+commit 485ee1712ad5c786c2b2cea65b71138a5cea3f97
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 05:16:39 2014 +0500
+
+    1. override.less updated with new code and variables instead of static values. These variables are defined in variables.less
+    2 Property summary tmarkup ( #property-summary .col-sm-3) restyled under different screen sizes.
+
+commit 5639a4eda498c8099f16550432dee9cd5b93adae
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 02:55:12 2014 +0500
+
+    Fixing listing summary's number of column
+
+commit 38f22d6390d4633f01eb65d82dd9833cacb48c9b
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 22:29:41 2014 +0500
+
+    Fixed the Listing summary's four columns for bigger screens. Modfied the file  'addoverride.less'
+
+commit 0b331c733431176a1d84a0955eb8f3141e7c4b9e
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 21:49:09 2014 +0500
+
+    1. Updated grunt file so it checks for changes in other bower components i,e FlexSlider and then includes the less file to th
+    2. Updated html markup and created collapsable forms on the sidebar which open on click events on the respective  buttons. Al
+    3. Top logo css fixes.
+    4. Flex slider code and styles.
+    5. Many small tweaks.
+    
+    In next release:
+    
+    Any bug fixes after testing.
+
+commit 90cbe721f94df9bf6637c071fc5d0c4fa26f64d2
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 12:08:51 2014 +0500
+
+    1. Removed Jssor-Slider
+    2. REmoved both version 1.3 and 2 of OwlCarousel
+
+commit b8917a421d394c953567e999cac4851e516d9dad
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 12:05:41 2014 +0500
+
+    New thumbails styles for flex slider. Since flex slider is included in the bootstrap via less file, all gets compiled into bo
+
+commit d4a91bca6d913b017a6b99081a1051aa66e52b49
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 11:59:41 2014 +0500
+
+    New slideshow code added.
+
+commit 5ea10b4690c73282e20f29de5779ae836e7cb1ea
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 11:10:24 2014 +0500
+
+    Updated readme file.
+
+commit 68780a44b185efddc14d9561040e6d162d74748b
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 11:10:02 2014 +0500
+
+    Example of flex slider modified to work from root directory
+
+commit c76bd8defeecda81053e0a397de0662890ab2fa2
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 11:09:03 2014 +0500
+
+    Adding flexslider as bower component
+
+commit 1e707f907ea24ec76916a373f925951c69ef5527
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Fri Sep 26 09:42:11 2014 +0500
+
+    Updated git log.
 
 commit 7c62edca62ba61695618583571e5261ca1a2d2ad
 Author: Fahad Murtaza <info@fahdmurtaza.com>
@@ -78,3 +165,179 @@ Author: Fahad Murtaza <info@fahdmurtaza.com>
 Date:   Tue Sep 23 08:04:14 2014 +0500
 
     Adding the very first version. The libraries are based on bower
+
+[1]+  Stopped                 git log
+propertyfinder $ git log
+commit 8fa81aedf6a9ac93e535d277dbf4551d9325aecf
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 06:59:39 2014 +0500
+
+    Read me and command log updated.
+
+commit 3aede38f8b0eaeb539fbf5817aa23a31c42da032
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 06:53:26 2014 +0500
+
+    Styled the placeholder text in all forms.
+
+commit 816b65b0443941d98ffbbd3052f728e7307bd859
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 06:08:42 2014 +0500
+
+    File mode updated
+
+commit 485ee1712ad5c786c2b2cea65b71138a5cea3f97
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 05:16:39 2014 +0500
+
+    1. override.less updated with new code and variables instead of static values. These variables are defined in variables.less
+    2 Property summary tmarkup ( #property-summary .col-sm-3) restyled under different screen sizes.
+
+commit 5639a4eda498c8099f16550432dee9cd5b93adae
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sun Sep 28 02:55:12 2014 +0500
+
+    Fixing listing summary's number of column
+
+commit 38f22d6390d4633f01eb65d82dd9833cacb48c9b
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 22:29:41 2014 +0500
+
+    Fixed the Listing summary's four columns for bigger screens. Modfied the file  'addoverride.less'
+
+commit 0b331c733431176a1d84a0955eb8f3141e7c4b9e
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 21:49:09 2014 +0500
+
+    1. Updated grunt file so it checks for changes in other bower components i,e FlexSlider and then includes the less file to th
+    2. Updated html markup and created collapsable forms on the sidebar which open on click events on the respective  buttons. Al
+    3. Top logo css fixes.
+    4. Flex slider code and styles.
+    5. Many small tweaks.
+    
+    In next release:
+    
+    Any bug fixes after testing.
+
+commit 90cbe721f94df9bf6637c071fc5d0c4fa26f64d2
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 12:08:51 2014 +0500
+
+    1. Removed Jssor-Slider
+    2. REmoved both version 1.3 and 2 of OwlCarousel
+
+commit b8917a421d394c953567e999cac4851e516d9dad
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 12:05:41 2014 +0500
+
+    New thumbails styles for flex slider. Since flex slider is included in the bootstrap via less file, all gets compiled into bo
+
+commit d4a91bca6d913b017a6b99081a1051aa66e52b49
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 11:59:41 2014 +0500
+
+    New slideshow code added.
+
+commit 5ea10b4690c73282e20f29de5779ae836e7cb1ea
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 11:10:24 2014 +0500
+
+    Updated readme file.
+
+commit 68780a44b185efddc14d9561040e6d162d74748b
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 11:10:02 2014 +0500
+
+    Example of flex slider modified to work from root directory
+
+commit c76bd8defeecda81053e0a397de0662890ab2fa2
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Sat Sep 27 11:09:03 2014 +0500
+
+    Adding flexslider as bower component
+
+commit 1e707f907ea24ec76916a373f925951c69ef5527
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Fri Sep 26 09:42:11 2014 +0500
+
+    Updated git log.
+
+commit 7c62edca62ba61695618583571e5261ca1a2d2ad
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Fri Sep 26 09:32:19 2014 +0500
+
+    In this release:
+    
+    1. Added all the missing markup i.e
+     - The code for Maket updates live and the respective styles in the less files specifically addoverride.less
+     - Navigation bar improved with correct styles for the branding area where logo and company name goes.
+    2. Some general padding and margin fixes.
+    3. Regenereated distribution files.
+    
+    In next release:
+    
+    1. Fixes if any.
+    2. Slider/ Carousel implementation. I plan to use the best one which is touch compatible and integrates with bootstrap nicely
+
+commit 0ebca662badfc23a235fa85e3a854765cd143bb0
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Fri Sep 26 09:26:54 2014 +0500
+
+    Removed old readme and added a new README.md file which is github compatible and also more readable in the sublime text.
+
+commit d7bece5701f353068aee653b068aed55e26ce2ae
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Fri Sep 26 09:25:34 2014 +0500
+
+    Adding git log to the repo
+
+commit 00c84d891f7c90b00f740515582ca6699f2c055a
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Fri Sep 26 01:40:43 2014 +0500
+
+    1. New bower components added namely:
+        - Font Awesome, which includes in bootstrap via less. There is only one icon i.e facebook icon being used from the font a
+        - OwlCarousel, both version 1.3.2 and version 2 as separate bower components.
+    2. The main html file has updated markup for the mockup functionality and design with a lot of code clean up and formatting. 
+    3. A mockup html file with respective images in the 'images' folder in the root.
+    4. Updated readme file with more explanations.
+    5. Bootstrap less files updated with more styles and fixes for layout.
+         - Bootstrap (bootstrap.less) has font awesome less files integrated for one-off gruntjs integration and code optimizatio
+         - navbar.less file has better styles for navbar styling. I still need to work on the brand ( logo and text) area.
+         - panels.less Box shadows have been added to panels.
+         - A new file addoverride.less has been added and included within bootstrap to add more styles and override some.
+         - variables.less has new code for better rendering helvitica nue which looks better across browsers and is quite close t
+    6. 'images' folder now contains new images for the mockup.html and index.html
+
+commit 16621ba150f64f3515fceb4abe162b649e41d758
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Tue Sep 23 19:41:38 2014 +0500
+
+    1. Added new styles for top navigation
+    2. Fixed glyph icons issue so they load properly
+    3. Added text from the image as is.
+    4. Did half of the markup including the top navigation, information area, and the description below.
+    5. Top navbar branding area styling, still needs to be finalised in less files.
+    6. Many other small fizes
+
+commit 69a05b52507efff83de374061dfbc2c0d354d139
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Tue Sep 23 15:09:09 2014 +0500
+
+    1. Git ignore has new rules for npm ignores
+    2. dist has newly created stuff.
+    3. Readme updated
+    4. The main index page created and did some coding.
+
+commit 4fa1b6aa9fff59fdcdb988a105766e4b532fc2c3
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Tue Sep 23 08:23:50 2014 +0500
+
+    Adding the new ignore file to get rid of all the nuisance.
+
+commit f9aca0933ad86f8713d6c9d4bfed673446799c37
+Author: Fahad Murtaza <info@fahdmurtaza.com>
+Date:   Tue Sep 23 08:04:14 2014 +0500
+
+    Adding the very first version. The libraries are based on bower
+(END) 
