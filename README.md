@@ -18,7 +18,10 @@ Bower website: http://bower.io/
 
 Some example bower use cases are
 
-# registered package (I use this for bootstrap and pakcaged jQuery, which can also be managed as seperate package)
+# registered package 
+
+I use this for bootstrap and pakcaged jQuery ( and many other packages). There is a git end point which essentially makes every git repo to be used as bower package.
+
 $ bower install bootstrap 
 
 # GitHub shorthand
@@ -148,3 +151,7 @@ I used the follwing .less code.
 
 I moved the thumbnails on mobile and small screens to under the full image as it looked awkward and too small once moving to small screens. The desktop version is just like as in mockup. 
 
+
+## About forms on the sidebar
+
+The forms on sidebar use collapse feature of bootstrap with ease in transitions applied to the dovs containing them. 
