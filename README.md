@@ -26,21 +26,27 @@ $ bower install bootstrap
 
 # GitHub shorthand
 
-$ bower install desandro/masonry
+```$ bower install desandro/masonryz```
 
 # Git endpoint 
-$ bower install git://github.com/user/package.git
+
+```$ bower install git://github.com/user/package.git```
 
 # I have used the follwing packages from github 
 
+```
 $ bower install --save FlexSlider
 $ bower install --save fontawesome ( For the facebook icon only, rest are all glyphicons that come with bootstrap)
+``` 
 
 
 # URL
-$ bower install http://example.com/script.js
 
-##Note: 
+```
+$ bower install http://example.com/script.js
+```
+
+## Note: 
 
 Question: A possible question that why I am checking in the bower_components and not the node modules?
 
@@ -49,11 +55,11 @@ Short Answer: Because I am customising the bootstrap via less files and adding d
 Long Answer: http://addyosmani.com/blog/checking-in-front-end-dependencies/
 
 
-##Customisation of bootstrap
+## Customisation of bootstrap
 
 This web page uses twitter bootstrap. You need to have node and grunt installed f0r any bootstrap related modification.
 
-#Installing Grunt
+# Installing Grunt
 
 To install Grunt, you must first download and install node.js (which includes npm). npm stands for node packaged modules and is a way to manage development dependencies through node.js.
 
@@ -65,6 +71,7 @@ Then, from the command line:
 When completed, you'll be able to run the various Grunt commands provided from the command line.
 
 Available Grunt commands
+
 grunt dist (Just compile CSS and JavaScript)
 Regenerates the /dist/ directory with compiled and minified CSS and JavaScript files. As a Bootstrap user, this is normally the command you want.
 
@@ -85,11 +92,11 @@ Should you encounter problems with installing dependencies or running Grunt comm
 Since bootstrap has a very detailed 'less' file structure, it was pretty easy for me to add and edit things and get them compiled via Grunt tasks. I used other bower compnents to be compiled into bootstrap to keep the number of webpage resources to minimum which helps with performance of the website. 
 
 
-##Important Notes regarding grid layout changes for responsive layout
+## Important Notes regarding grid layout changes for responsive layout
 
 I undertanhd that the given mockup is based on 940px wide container design. This could be easily converted to a 940px layout with right sidebar being 300px wide, but:
 
-#The BIG 'BUT'
+# The BIG 'BUT'
 
 Our requirements are simple:
 
@@ -125,7 +132,7 @@ With that change, the span-* classes are gone, so old grids will not work with t
 The new grid system is powerful, and I expect it’s going to confuse a lot of people. Expect to spend a good amount of time in the grids section of the Bootstrap docs before you get the hang of it. I know I had to!
 
 
-#IE7, who are you?
+# IE7, who are you?
 
 With Bootstrap 3, support for Internet Explorer 7 has been removed from the project. I will work on the html5 shiv but wn't use any modernizr for old browser support again for the follwing reason:
 
@@ -133,7 +140,7 @@ With Bootstrap 3, support for Internet Explorer 7 has been removed from the proj
 
 
 
-##Five columns in footer
+## Five columns in footer
 
 I used the follwing .less code.
 
@@ -148,7 +155,7 @@ I used the follwing .less code.
        padding-right: 7px;
     }
 
-##About slider
+## About slider
 
 I moved the thumbnails on mobile and small screens to under the full image as it looked awkward and too small once moving to small screens. The desktop version is just like as in mockup. 
 
