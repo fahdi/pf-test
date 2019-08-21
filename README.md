@@ -1,4 +1,4 @@
-##Tools and techniques used
+## Tools and techniques used
 
 Text editor used : Sublime Text 3
 Started : 22nd September 2014, 22:53 
@@ -10,7 +10,7 @@ CSS Preprocessor: Less http://lesscss.org/
 Syncronous testing on muliple devices using Ghostlab
 
 
-##Tech Description
+## Tech Description
 
 Since I am using bower to manage all project depencies including bootstrap, so iot6s very easy to upgrade any package and manage everything including mamnaging different versions of jQuery compatibl with respective versions of boostrap. Also I can manage any git ende point to use as a package manager. 
 
@@ -18,13 +18,14 @@ Bower website: http://bower.io/
 
 Some example bower use cases are
 
-# registered package 
+# Registered package 
 
 I use this for bootstrap and pakcaged jQuery ( and many other packages). There is a git end point which essentially makes every git repo to be used as bower package.
 
 $ bower install bootstrap 
 
 # GitHub shorthand
+
 $ bower install desandro/masonry
 
 # Git endpoint 
